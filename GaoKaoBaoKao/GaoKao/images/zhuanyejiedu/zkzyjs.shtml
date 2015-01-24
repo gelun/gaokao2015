@@ -1,0 +1,22 @@
+<ul>
+                        <li><a href="#">旅游类</a></li>
+                        <li><a href="#">交通运输类</a></li>
+                        <li class="Nomar"><a href="#">公共事业类</a></li>
+                        <li><a href="#">公安类</a></li>
+                        <li><a href="#">农林牧渔类</a></li>
+                        <li class="Nomar"><a href="#">医药卫生类</a></li>
+                        <li><a href="#">制造类</a></li>
+                        <li><a href="#">文化教育类</a></li>
+                        <li class="Nomar"><a href="#">轻纺食品类</a></li>
+                        <li><a href="#">土建类</a></li>
+                        <li><a href="#">电子信息类</a></li>
+                        <li class="Nomar"><a href="#">资源开发类</a></li>
+                        <li><a href="#">水利类</a></li>
+                        <li><a href="#">材料能源类</a></li>
+                        <li class="Nomar"><a href="#">生化药品类</a></li>
+                        <li><a href="#">财经类</a></li>
+                        <li><a href="#">艺术设计传媒类</a></li>
+                        <li class="Nobg"><a href=""></a></li>
+                        <li><a href="#">法律类</a></li>
+                        <li><a href="#">环保气象与安全类</a></li>
+                    </ul>

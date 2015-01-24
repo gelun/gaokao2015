@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0;color:#000; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:url(bg.jpg);}
+h1,h2,h3,h4,p,ul,li,dl,dt,dd,input,img, th{ padding:0; margin:0; border:none; list-style:none;}
+a:link,a:visited{ color:#2d2017; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.header {width:auto;height:299px; background:url(hbg.jpg) no-repeat center top; margin:0 auto;}
+
+
+.content{width:1000px; height:auto; overflow:hidden; padding-bottom:10px; background:#fff; margin:0 auto;}
+.topword {width:900px; margin:0 auto; padding:20px 0;}
+.topword p {color:#297ece;text-indent:2em;line-height:24px;}
+
+
+/*box*/
+.content .box {width:960px; margin:0 auto; height:380px;}
+.box .boxL {width:290px; height:380px; float:left;}
+.box .boxC {width:321px; height:358px; float:left; margin-left:15px; border:1px solid #dedede; padding:10px 20px;}
+.boxC .tit {height:35px; line-height:35px; border-bottom:1px solid #ddd; font-weight:bold; font-size:16px; color:#0188f3; font-family:'微软雅黑'; padding-left:5px;}
+.boxC .tit span {float:right; padding-right:8px; padding-top:15px;}
+.boxC .list {width:330px; height:314px; overflow:hidden; padding-top:12px;}
+.list ul li {width:300px; height:24px; line-height:24px; overflow: hidden; padding-left:16px; background:url(list_ico.jpg) no-repeat 5px center;}
+.list ul li span {float:right;}
+.box .boxR {width:275px; height:380px; float:right; background:url(boxr_bg.jpg) repeat-x;}
+/*
+.boxR .weibo {height:70px; width:245px; border-bottom:1px solid #ddd;}
+.weibo .wbL {height:60px; width:61px; float:left;}
+.weibo .wbR{height:60px; margin-left:15px; float:left;}
+.wbR p a {display:block;height:24px; line-height:24px;}
+.wbR span {display:block; margin-top:10px; width:45px; height:18px; background:url(jia.jpg) no-repeat 10px center #f2f2f2; padding:2px; border:1px solid #ddd; line-height:18px;text-align:center; padding-left:13px;} 
+.wbR span a {display:block; width:45px; height:18px;}
+.boxR .wordtit {clear:both; margin:15px 0 5px 0; width:245px; height:30px; line-height:30px; overflow:hidden;}
+.boxR .wort {width:245px; height:19px; background:url(wordcon_t.jpg) no-repeat left top;}
+.boxR .wordcon {width:243px; height:250px; border-left:1px solid #e5e5e5; border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;}
+.wordcon p {padding:0 10px; line-height:22px; color:#797979;}
+.wordcon img {display:block; width:108px; height:84px; border:1px solid #e5e5e5; padding:2px; margin:0 auto; margin-top:10px;}
+*/
+.banner {width:960px; height:92px; margin:10px auto; clear:both;}
+
+.hztit {width:960px; height:50px; background:url(hztit_bg.jpg) repeat-x; margin:0 auto;}
+.hztit h1 {height:50px; width:380px; margin:0 auto; text-align:center; color:#fff; font-size:20px; font-family:'微软雅黑';line-height:50px; background:#fff; padding:1px;border:2px solid #228ded;}
+.hztit h1 span {display:block; width:380px; height:50px; background:#228ded; }
+
+
+/*tables*/
+table.tables {border-collapse:collapse; margin:0 auto; background:#d0e6fa;}
+table.tables tr th {height:50px; background:#228ded; border:1px solid #fff; line-height:50px; color:#fff; font-size:14px;l}
+table.tables tr td {border:1px solid #fff; text-align:center; line-height:24px; padding:10px 0;}
+table.tables tr td.tdlft {text-align:left; padding:10px 20px;}
+table.tables tr.colortr td {background:#eaf1f7;}
+table.tables tr td a,table.tables tr td a:link,table.tables tr td a:visited {color:#2d2017;}
+table.tables tr td a:hover {text-decoration:underline; color:#228ded;}
+.conul {width:960px;height:40px;margin:0 auto;	}
+.conul ul li {float:left;height:40px;line-height:40px;font-size:14px;font-family:'微软雅黑';padding-right:44px;}
+
+/*左侧切换图片*/
+img {border:0;}
+ul,li{ list-style-type:none;}
+.bannerImg{POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 287px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px;background:#f4f4f4;border:1px solid #e3e3e3;}
+.bannerImg .bannerPage{POSITION: absolute; TOP:335px; LEFT: 50%; margin-left:-40px;}
+.bannerImg .bannerPage A{MARGIN-RIGHT: 2px;}
+.bannerImg .bannerPage A IMG{VERTICAL-ALIGN: middle;}
+.slides_container{POSITION: relative; WIDTH: 287px; height:378px; OVERFLOW: hidden;}
+.pagination{MARGIN: 26px auto 0px;}
+.pagination li{MARGIN: 0px 1px; FLOAT: left;}
+.pagination li A{BACKGROUND-IMAGE: url(../pagination.png); WIDTH: 15px; DISPLAY: block; BACKGROUND-POSITION: 0px -1px; FLOAT: left; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 12px;}
+.pagination li.current A{BACKGROUND-POSITION: 0px -18px;}
+.adTxt{position:absolute; bottom:0px; left:0px; width:100%; height:30px; background:#000;color:#fff;opacity:0.7;filter:alpha(opacity:70); text-align:center;  font-size:18px; font-weight:bold; line-height:30px;}
+
+
+
+
+/*Docbox*/
+.Docbox{ width:955px; height:40px; line-height:40px;text-align:center; background:url(mail_bg2.jpg) repeat-x; border:1px solid #96BBFF; margin:0 auto; color:#0f85d8; margin-top:15px;}
+.Docbox span{ margin-right:40px;}
+.Docbox a:link,.Docbox a:visited{ color:#0f85d8;}
+.Docbox span.one{ color:#1b1b1b;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; color:#fff; background:#141414;}
+h1,h2,h3,h4,p,ul,li,dl,dt,dd,img,input,tr,th,td{ padding:0; margin:0; list-style:none; border:none;}
+a:link,a:visited{ text-decoration:none; color:#fff;}
+a:hover{text-decoration:underline;}
+/*MateNav*/
+#MateNav{ width:100%; height:28px; line-height:28px; background:#000;}
+#MateNav .Mate{ width:1000px; height:28px; margin:0 auto;}
+#MateNav .mateL{ width:200px; float:left;}
+#MateNav .mateR{ width:290px; float:right;}
+.mateR .lft{ width:195px; float:left;}
+.mateR .lft span{ padding:0 5px; color:#fff;}
+.mateR .rit{ width:82px; float:right; background:url(../images/arrow_sj.jpg) no-repeat right center; padding-right:4px;}
+/*位次预估*/
+#Message{ width:792px; height:105px; margin:0 auto; padding-left:208px;}
+#Message .top{ width:500px; height:50px; margin-top:25px;}
+#Message .top h1{ width:140px; font:bold 30px/50px "微软雅黑"; float:left;}
+#Message .top .news{ width:300px; float:left;margin-top:17px;}
+.top .news a:link,.top .news a:visited{ display:inline-block; width:64px; height:23px; line-height:23px; text-align:center; background:#fff; border:1px solid #d0d0d0; margin-right:15px; color:#f1681a;}
+.top .news a:hover{ text-decoration:none;}
+#Message .bottom{ width:750px; height:30px; line-height:30px;}
+#Message .bottom p{ float:left; margin-right:30px;}
+.bottom p span{ color:#969696;}
+.bottom p strong{ color:#f1681a; font-size:16px;}
+/*Wrapone*/
+#Wrapone{ width:1000px; background:url(../images/box_bot.jpg) no-repeat bottom #fff; margin:0 auto; position:relative;}
+#Wrapone .current{width:1000px;height:60px;border-bottom:3px solid #ffe4b3;background:url(../images/box_top2.jpg) no-repeat top #fff1d9;}
+.current .user{ position:absolute; top:-115px; left:25px;} 
+.current .now{ width:300px; height:60px; line-height:60px; padding-left:240px; color:#1b1b1b;}
+.current .now a:link,.current .now a:visited{ color:#1b1b1b;}
+.current .now a:hover{ color:#f1681a; text-decoration:none;}
+.current .now span{ color:#f1681a}
+#Wrapone .current .sc{ width:89px; height:23px; line-height:23px; text-align:center; position:absolute; top:24px; right:114px; background:#f1681a;}
+.current .sc a:link,.current .sc a:visited{ background:url(../images/sc2.jpg) no-repeat left center; padding-left:12px;}
+.current .sc a:hover{ text-decoration:none;}
+#Wrapone .current .card{ width:89px; height:23px; line-height:23px; text-align:center; position:absolute; top:24px; right:15px; background:#f1681a;}
+.current .card a:link,.current .card a:visited{ background:url(../images/zyk2.jpg) no-repeat left center; padding-left:14px;}
+.current .card a:hover{ text-decoration:none;}
+#Wrapone .wrap{ width:1000px; overflow:hidden;}
+#Wrapone .wrapL{ width:222px; float:left;}
+.wrapL li{ width:222px; height:45px; line-height:45px;background:#fafafa;}
+.wrapL li a:link,.wrapL li a:visited{ color:#1b1b1b; height:44px; font-size:14px; font-family:"微软雅黑"; display:block; width:186px; border-bottom:1px solid #dfdfdf;padding-left:9px; background:url(../images/li_bg.jpg) no-repeat right center; margin-left:12px;}
+.wrapL li a:hover{ text-decoration:none; color:#fff;}
+.wrapL li.Cur{background:#f1681a;} 
+.wrapL li.Cur a:link,.wrapL li.Cur a:visited{ background:none; border:none; color:#fff;}
+.wrapL li:hover{ background:#f1681a;}
+.wrapL li:hover a{ background:#f1681a; border:none; color:#fff;}
+/*报考指导视频讲座*/
+.wrapR{ width:775px; float:left; color:#1b1b1b; overflow:hidden; border-left:3px solid #ffe4b3;}
+.wrapR .btn_s{ width:113px; height:38px; margin:24px 0 10px 34px;}
+.wrapR .video{ margin:15px 0 0 35px; width:740px;}
+.wrapR .video li{ float:left; width:312px; height:254px; margin:0 25px 25px 0; background:#ecf0f1; border-radius:10px; padding:12px 0 0 20px;}
+.wrapR .video li a{ display:block;}
+.wrapR .video li a.haveborder{ width:275px; height:173px; border:10px solid #fff;}
+.wrapR .video li span{ display:block; width:275px; padding:10px 0 0 44px;}
+/*Footer*/
+#Footer{ width:1000px; margin:25px auto; text-align:center; line-height:24px;}

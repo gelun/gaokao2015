@@ -1,0 +1,375 @@
+﻿<gl:doctype>
+<gl:html>
+<gl:head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+	在线报名_中国政法大学在职研究生网
+</title>
+<link href="http://www.zaizhiyanjiusheng.net/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.4.4/jquery.min.js"></script>
+</gl:head>
+<gl:body>
+    <!--#include file="/commonfile/top.shtml"-->
+<div id="lanmu">
+	<div class="leftn">
+		<div class="lmt2">
+			在线报名
+		</div>
+		<div class="tab" style="border-bottom:0px;">
+			<p style="color:red;">
+				必填项目：（带*为必填项目）
+			</p>
+		</div>
+		<div class="tab" style="border-bottom:0px;">
+			<div class="baoming">
+				<div class="bminput">
+					姓&nbsp;名： <input type="text" name="txtName" id="txtName" value="" class="bmtext" /> <span>*</span> 
+				</div>
+				
+				<div class="bminput">
+					所报专业：<select name="fangxiang" id="fangxiang"> <option value="67">民商法</option>
+                            <option value="68">经济法</option>
+                            <option value="69">刑法</option>
+                            <option value="70">知识产权法</option>
+                        </select> <span>*</span> 
+				</div>
+				<div class="bminput">
+					现有学历：<select id="xuewei"> 
+                    <option value="0">本科有学位</option>
+                            <option value="1">本科无学位</option>
+                            <option value="2">大专学历</option>
+                            <option value="3">其他学历</option>
+                        </select>
+                        <span>&nbsp;&nbsp;</span> 
+				</div>
+				<div class="bminput">
+					手机：<input type="text" name="txtMobile" id="txtMobile" value="" class="bmtext" /> <span>*</span> 
+				</div>
+				<div class="bminput">
+					固定电话：<input type="text" name="txtHomeTel" id="txtHomeTel" value="" class="bmtext" /> <span style="color:#fff;">*</span> 
+				</div>
+				<div class="bminput">
+					E-mail：<input type="text" name="txtEmail" id="txtEmail" value="" class="bmtext" /> <span style="color:#fff;">*</span> 
+				</div>
+				<div class="bminput" style="height:70px;line-height:70px;">
+					学生留言： <textarea name="txtMessage" id="txtMessage" cols="22" rows="3" class="bmtext" style="width:205px;"></textarea> <span style="color:#fff;">*</span> 
+				</div>
+				<div class="bminput">
+					验证码： <input name="txtYanZhengMa" type="text" id="txtYanZhengMa" class="bmtext" style="width:100px;" /> <img src="http://bmxx.gelun.org/tmp/2.jpg" id="codeimg" style="cursor:pointer;" onclick="javascript:code();" alt="看不清楚,点击刷新" /> <span style="color:#fff;">*</span> 
+				</div>
+			</div>
+			<p style="color:red;padding-left:70px;padding-bottom:15px;">
+				请确保您所填写信息的准确性以免延误您的报考。信心核对准确后点击“我要报名”按钮。
+			</p>
+			<div class="clear">
+			</div>
+			<div class="baomingbtm" style="padding-left:250px;margin-bottom:35px;">
+				<input type="button" value="我要报名" name="tj" class="tj" id="tj" /> 
+			</div>
+		</div>
+<script type="text/javascript">
+    function getCookies(c_name) {
+        if (document.cookie.length > 0) {
+            c_start = document.cookie.indexOf(c_name + "=")
+            if (c_start != -1) {
+                c_start = c_start + c_name.length + 1
+                c_end = document.cookie.indexOf(";", c_start)
+                if (c_end == -1) c_end = document.cookie.length
+                return unescape(document.cookie.substring(c_start, c_end))
+            }
+        }
+        return "";
+    }
+    //页面加载时 产生的随机码
+    code();
+    function code() {
+        var rd = rand(); //生成
+        //            $(function () {
+        $("#codeimg").attr("src", "http://bmxx.gelun.org/tmp/" + rd + ".jpg");
+        //            });
+        var yzcode = "kvho";
+        switch (rd) {
+            case 1:
+                yzcode = "kvho";
+                break;
+            case 2:
+                yzcode = "tjyx";
+                break;
+            case 3:
+                yzcode = "dnth";
+                break;
+            case 4:
+                yzcode = "zyrg";
+                break;
+            case 5:
+                yzcode = "xwcq";
+                break;
+            case 6:
+                yzcode = "rmty";
+                break;
+            case 7:
+                yzcode = "tfea";
+                break;
+            case 8:
+                yzcode = "ifta";
+                break;
+            case 9:
+                yzcode = "ywmc";
+                break;
+            default:
+                break;
+        }
+        SetCookie("code", yzcode);
+    }
+    function rand() {
+        var r = Math.floor(Math.random() * 10 + 1);
+        if (r > 9) {
+            r = 9;
+        } else if (r < 1) {
+            r = 1;
+        }
+        return r;
+    }
+    function SetCookie(name, value)//两个参数，一个是cookie的名子，一个是值
+    {
+        // var Days = 30; //此 cookie 将被保存 30 天
+        var exp = new Date();    //new Date("December 31, 9998");
+        exp.setTime(exp.getTime() + 2 * 60 * 60 * 1000); //2小时
+        document.cookie = name + "=" + value + ";expires=" + exp.toGMTString() + ";path=/;";
+    }
+    function getCookie(name)//取cookies函数        
+    {
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr != null) return unescape(arr[2]); return null;
+    }
+    function delCookie(name)//删除cookie
+    {
+        var exp = new Date();
+        exp.setTime(exp.getTime() - 1);
+        var cval = getCookie(name);
+        if (cval != null) document.cookie = name + "=" + cval + ";expires=" + exp.toGMTString() + ";path=/;";
+    }
+    $(function () {
+        $("#tj").click(function () {
+            //校验验证码
+            var yzm = getCookie("code");
+            var YanZhengMa = $("#txtYanZhengMa").val();
+            if (YanZhengMa == "") {
+                alert("请输入验证码");
+                return false;
+            } else if (yzm != YanZhengMa) {
+                alert("验证码输入有误");
+                code();
+                return false;
+            }
+            /*****************************/
+            var laiyuan = 42;
+            var jiamengdian = 0;
+            //获取cookie中的值
+            var biuid = getCookies("biuid");
+            var ary = biuid.split("|")
+            if (ary.length == 4) {
+                laiyuan = ary[3];
+                jiamengdian = ary[2];
+            }
+            else {
+                laiyuan = 42;
+            }
+            /**********************************************************/
+            var StudentName = $.trim($("#txtName").val());
+            if (StudentName == "") {
+                alert("姓名不能为空");
+                return false;
+            }
+            var Sex = $('input:radio[name="xingbie"]:checked').val();
+            if (Sex == null) {
+                alert("请选择性别");
+                return false;
+            }
+            var fangxiang = $("#fangxiang").val();
+            var XueLi = $("#xuewei").val();
+            var IDNumber = "";
+            var Mobile = $.trim($("#txtMobile").val());
+            if (Mobile == "") {
+                alert("手机号码不能为空");
+                return false;
+            } else {
+                var ref = /^1[3|5|8][0-9]\d{8}$/;
+                if (ref.test(Mobile) == false) {
+                    alert("手机号码格式不正确");
+                    return false;
+                }
+            }
+            var Tel = $.trim($("#txtHomeTel").val());
+            var mobilelist = "," + Mobile;
+            if (Tel != "") {
+                mobilelist += "," + Tel;
+            }
+            var Address = "";
+            var Code = "";
+            var Email = $.trim($("#txtEmail").val());
+            var Message = $.trim($("#txtMessage").val());
+            var Memo = "";
+            if (Message != "") {
+                Memo += "学生留言：" + Message;
+            }
+            switch (XueLi) {
+                case "0": Memo += "； 学历：本科有学历";
+                    break;
+                case "1": Memo += "； 学历：本科无学历";
+                    break;
+                case "2": Memo += "； 学历：无";
+                    break;
+                default:
+                    break;
+            }
+            /************************************************************/
+            var List = "&yzxx=0cee67aa6a19aefa6e639ff0ee666bcf"//0
+                                       + "&PartnerId=16"//
+                                       + "&StudentName=" + StudentName
+                                       + "&ProjectName=法大研修班" + ""//待定
+                                       + "&Gender=" + Sex         //4
+                                       + "&Birthday=" + ""
+                                       + "&IdNumber=" + IDNumber
+                                       + "&Province=" + ""
+                                       + "&City=" + ""
+                                       + "&Mobile=" + Mobile
+                                       + "&HomeTel=" + Tel           //10
+                                       + "&FMobile=" + ""
+                                       + "&MMobile=" + ""
+                                       + "&Relation=" + ""
+                                       + "&RMobile=" + ""
+                                       + "&MobileList=" + mobilelist
+                                       + "&Address=" + Address
+                                       + "&ZipCode=" + Code
+                                       + "&QQ=" + ""
+                                       + "&Email=" + Email
+                                       + "&Memo=" + Memo          //20
+                                       + "&LYid=" + laiyuan //
+                                       + "&XLid=" + ""
+                                       + "&AddWid=" + "0"
+                                       + "&AgencyId=" + "0"
+                                       + "&JMDid=" + jiamengdian
+                                       + "&IdNumSourceWid=" + "0"
+                                       + "&CurrentDianWid=" + "0"
+                                       + "&CurrentWid=" + "0"
+                                       + "&HuiFangStatus=" + "1"
+                                       + "&FangXiangId=" + fangxiang;            //30
+            $.getJSON("http://bmxx.gelun.org/webservice/BaoMingJson.asmx/HelloWorld?jsoncallback=?", { strList: List }, function (data) {
+                //alert(data.msg);
+                var result = data.msg;
+                if (result == "success") {
+                    alert("报名成功");
+                    window.location.href = "/";
+                }
+                else if (result == "yibaoming") {
+                    alert("您已经报过名了！");
+                    code();
+                    return false;
+                }
+                else if (result == "error") {
+                    alert("报名失败！错误代码：error");
+                    code();
+                    return false;
+                }
+                else if (result == "error_spid") {
+                    //保存报读项目时失败
+                    alert("报名失败！错误代码：error_spid");
+                    code();
+                    return false;
+                }
+                else if (result == "error_zhuanfa") {
+                    //向转发记录表中保存时，出错
+                    alert("报名失败！错误代码：error_fdyxb");
+                    code();
+                    return false;
+                }
+                else if (result == "no") {
+                    alert("数据请求失败！");
+                    code();
+                    return false;
+                }
+                else if (result == "nosafe") {
+                    alert("不合法的访问！");
+                    code();
+                    return false;
+                }
+                else {
+                    alert("web服务有问题！");
+                    code();
+                    return false;
+                }
+            });
+        });
+    });
+            </script>
+	</div>
+	<div class="rightn">
+		<div class="youlan">
+			<div class="lmt3">
+				报考常识
+			</div>
+			<div class="liebiao">
+				<ul>
+					<li>
+						<a href="http://www.zaizhiyanjiusheng.net/1408_36524.shtml" target="_blank"><i></i>报名民商法在职研究生的人群</a> 
+					</li>
+					<li>
+						<a href="http://www.zaizhiyanjiusheng.net/1407_35319.shtml" target="_blank"><i></i>本科无学位可以报名在职研修班吗？</a>
+					</li>
+					<li>
+						<a href="http://www.zaizhiyanjiusheng.net/1407_35299.shtml" target="_blank"><i></i>适合就读研修班的法学专业</a>
+					</li>
+					<li>
+						<a href="http://www.zaizhiyanjiusheng.net/1408_36538.shtml" target="_blank"><i></i>经济法在职课程高级研修班报名须知</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="youlan">
+			<div class="lmt">
+				<img src="http://www.zaizhiyanjiusheng.net/img/lxwm.jpg" /> 
+			</div>
+			<p>
+				咨询电话：<span style="white-space:nowrap;">010-58908430</span> 
+			</p>
+			<p style="text-indent:70px;">
+				<span style="white-space:nowrap;">010-58902906</span> 
+			</p>
+			<p>
+				<span style="line-height:1.5;">电子信箱：<span style="white-space:nowrap;">ceoxm@cupl.edu.cn</span></span> 
+			</p>
+			<p>
+				报名地址：中国政法大学研究生院
+			</p>
+			<div class="lxdh">
+				<p style="text-indent:70px;">
+					<span style="white-space:nowrap;">科研楼A1013室</span> 
+				</p>
+				<p>
+					学院路周边公交线路：
+				</p>
+				<p style="text-indent:28px;">
+					425(南坞-大屯)
+				</p>
+				<p style="text-indent:28px;">
+					367(国际展览中心-巴沟村)
+				</p>
+				<p style="text-indent:28px;">
+					304(巴沟村-牡丹园)(高峰线)
+				</p>
+				<p style="text-indent:28px;">
+					16(二里庄-西直门外)
+				</p>
+				<p style="text-indent:28px;">
+					387(慧忠路东口-北京西站)
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clear">
+</div>
+<!--#include file="/commonfile/bottom.shtml"-->
+</gl:body>
+</gl:html>

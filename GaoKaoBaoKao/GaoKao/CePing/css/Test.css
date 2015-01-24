@@ -1,0 +1,264 @@
+﻿<style type="text/css">
+        body
+        {
+            font-size: 14px;
+            font: "宋体";
+            color: #352f2d;
+            font-family: "Microsoft YaHei";
+        }
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            line-height: 30px;
+        }
+        ul, li
+        {
+            list-style-type: none;
+        }
+        img
+        {
+            border: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+        /*页面顶部外框*/
+        .box
+        {
+            width: 810px;
+            margin: 0px auto 0px;
+        }
+        .fb
+        {
+            margin-top: 15px;
+        }
+        .box_c
+        {
+            
+            overflow: hidden;
+            clear: both;
+            background: url("../images/box_bg.png") repeat-y top center;
+            text-align: center;
+        }
+        .bc
+        {
+            width: 720px;
+            margin: 0px auto;
+        }
+        /*顶部部分*/
+        .bc_t
+        {
+            height: 60px;
+            padding-top: 10px;
+        }
+        .bc_t_l
+        {
+            float: left;
+            width: 390px;
+        }
+        .bc_t_l img
+        {
+            float: left;
+        }
+        .bc_t_l span
+        {
+            float: left;
+            margin: 6px 0px 0px 10px;
+            padding-left: 10px;
+            display: block;
+            height: 30px;
+            font-size: 18px;
+            border-left: 1px solid #d8d8d8;
+        }
+        
+        .bc_t_r
+        {
+            float: right;
+            width: 320px;
+            margin-top: 10px;
+            vertical-align: center;
+        }
+        .bc_t_r_l
+        {
+            float: left;
+        }
+        .jdt
+        {
+            float: left;
+            background: url("/images/jdt_bg.png") no-repeat;
+            width: 210px;
+            height: 22px;
+            text-align: left;
+        }
+        .jdt img
+        {
+            margin-left: 1px;
+        }
+        .bc_t_r_b
+        {
+            float: left;
+        }
+        .bc_t_r_b span
+        {
+            color: #7a9900;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        /*中间部分*/
+        .bc_c
+        {
+            clear: both;
+           
+            overflow: hidden;
+        }
+        .bc_c .bccr
+        {
+            float: right;
+            width: 100%;
+        }
+        
+        li.q
+        {
+            clear: both;
+            border-bottom: 1px solid #d8d8d8;
+        }
+        .bccr li.q
+        {
+            float: right;
+        }
+        li.q:hover
+        {
+            background: #f5ffcc;
+        }
+        .alert
+        {
+            background: #b2e17c;
+        }
+        
+        .ct, .a
+        {
+            margin: 0px auto;
+            text-align: left;
+        }
+        .ct
+        {
+            padding-top: 10px;
+            font-weight: bold;
+        }
+        .cti
+        {
+            float: left;
+            color: #006600;
+            width: 30px;
+            text-align: right;
+            line-height: 30px;
+        }
+        .ctt
+        {
+            float: left;
+            padding-left: 5px;
+            width: 680px;
+            line-height: 30px;
+        }
+        .a
+        {
+            clear: both;
+            height: 30px;
+            padding: 5px 0px 10px 30px;
+            font-size: 12px;
+        }
+        .a li
+        {
+            float: left;
+            padding-right: 50px;
+        }
+        
+        .twina
+        {
+            float: left;
+            padding-left: 5px;
+            width: 365px;
+        }
+        .twina input
+        {
+            float: left;
+            width: 15px;
+            margin-top: 8px;
+            margin-right: 5px;
+        }
+        .twina label
+        {
+            float: left;
+            width: 345px;
+            font-weight: normal;
+            line-height: 30px;
+        }
+        
+        li.qt
+        {
+            width: 100%;
+            border-bottom: 1px dashed #d8d8d8;
+        }
+        .qt .cti
+        {
+            width: 50px;
+            text-align: center;
+        }
+        .ctqt
+        {
+            float: left;
+            width: 300px;
+            line-height: 30px;
+            font-weight: normal;
+        }
+        .cta
+        {
+            float: left;
+            width: 60px;
+            padding-left: 18px;
+        }
+        .cta li
+        {
+            float: left;
+            width: 30px;
+            text-align: center;
+        }
+        .qt .bclear
+        {
+            height: 0px;
+        }
+        .qtt
+        {
+            background: #f5ffcc;
+        }
+        .qtt .ctqt
+        {
+            font-weight: bold;
+        }
+        li.qtt:hover
+        {
+            background: #f5ffcc;
+        }
+        
+        
+        .bcb
+        {
+            clear: both;
+            text-align: right;
+            padding: 20px 20px 0px 0px;
+        }
+        .alert_info
+        {
+            position: relative;
+            top: -15px;
+            right: 10px;
+            color: red;
+            vertical-align: middle;
+            margin-bottom: 2px;
+        }
+        
+        .redbg{
+                   background-color: #ffb46a;
+               }
+    </style>

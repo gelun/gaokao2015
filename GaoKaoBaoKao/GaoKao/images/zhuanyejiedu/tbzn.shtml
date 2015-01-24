@@ -1,0 +1,14 @@
+<ul>
+            <li><a href="#">
+                <img src="zhuanyejiedu/tu_1.jpg" width="218" height="170"></a><br>
+                <a href="#">sdjfskldjf</a></li>
+            <li><a href="#">
+                <img src="zhuanyejiedu/tu_2.jpg" width="218" height="170"></a><br>
+                <a href="#">sdjfskldjf</a></li>
+            <li><a href="#">
+                <img src="zhuanyejiedu/tu_3.jpg" width="218" height="170"></a><br>
+                <a href="#">sdjfskldjf</a></li>
+            <li class="Nomar"><a href="#">
+                <img src="zhuanyejiedu/tu_4.jpg" width="218" height="170"></a><br>
+                <a href="#">sdjfskldjf</a></li>
+        </ul>

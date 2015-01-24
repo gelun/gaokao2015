@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0;color:#000; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:url(bg.jpg);}
+h1,h2,h3,h4,p,ul,li,dl,dt,dd,input,img, th{ padding:0; margin:0; border:none; list-style:none;}
+a:link,a:visited{ color:#2d2017; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.header {height:83px; background:url(header.jpg) no-repeat center center #d76b51; padding-top:377px;}
+.header .yinyan { width:800px; height:50px; color:#fff; text-indent:2em; margin:0 auto; line-height:25px; padding:15px 0;}
+
+
+/*nav*/
+.navbox {width:1000px; height:60px; background:#ecb96a; margin:0 auto;}
+.nav {width:890px;margin:0 auto; padding-top:20px;}
+.nav ul li {width:146px; height:40px; float:left; margin-left:10px; line-height:40px; background:url(nav_bg.jpg) no-repeat left top; text-align:center;}
+.nav ul li a,.nav ul li a:link,.nav ul li a:visited {display:block; color:#a2670d; font-weight:bold; font-size:18px; text-decoration:none;}
+.nav ul li a:hover {color:#5a5a5a; background:url(hover.jpg) no-repeat left top;}
+.nav ul li.indexli a:hover {color:#5a5a5a; background:url(hover1.jpg) no-repeat left top;}
+.nav ul li.indexli {width:110px; background:url(nav_bg1.jpg) no-repeat left top; margin:0;}
+
+.zhinan {margin:0 auto; width:1000px; height:537px; background:url(zhinan.jpg) no-repeat left top; position:relative;}
+.zhinan p {font-size:18px; width:100px; overflow:hidden; height:46px;line-height:23px; text-align:center; font-family:'微软雅黑'; position:absolute;}
+.zhinan p a,.zhinan p a:link,.zhinan p a:visited {color:#fff;}
+.zhinan p.p1 {left:276px; top:130px;}
+.zhinan p.p2 {left:626px; top:364px;}
+.zhinan p.p3 {left:858px; top:143px;}
+/*策略*/
+.celue {width:1000px; padding-bottom:30px; overflow:hidden; margin:0 auto; background:url(celue.jpg) no-repeat left top #d4664b;}
+.tit {padding-top:52px; padding-left:40px; font-size:24px; color:#fff; font-family:'微软雅黑'; font-weight:bold;}
+.tit span {font-size:35px;}
+.celue .clcon {width:935px; margin:0 auto; margin-top:60px;}
+.clcon .clbox {width:305px; height:193px; float:left; margin-left:10px; margin-bottom:10px;}
+.clbox h3 {width:305px; background:url(clbox.jpg) no-repeat left top; height:41px; color:#8a2f18; font-family:'微软雅黑'; font-size:24px; text-align:center; line-height:41px;}
+.clbox .boxword {width:279px; height:128px; line-height:23px; background:#f2f3f7; padding:13px; color:#ab381c; text-indent:2em;}
+
+
+/*执导*/
+.zhidao {background:url(zhidao.jpg) no-repeat left top #e9bb8a;}
+.zhidao .tit {color:#793410;}
+.zhidao .clcon {margin-top:80px;}
+.zhidao .clcon .clbox h3 { background:url(zdbox.jpg) no-repeat left top; color:#f2f3f7;}
+.zhidao .clbox .boxword {background:#ecd9c9; color:#000; height:150px;}
+.boxword ul li {line-height:24px; background:url(dot.jpg) no-repeat 10px center; overflow:hidden; height:24px;}
+.boxword .more {text-align:right; padding-right:15px;}
+.more a,.more a:link,.more a:visited {color:#88260e;}
+.more a:hover {text-decoration:underline;}
+
+
+
+
+/*饮食*/
+.yinshi {width:1000px; padding-bottom:30px; overflow:hidden; margin:0 auto; background:url(yinshi.jpg) no-repeat left top #b2d8d9; clear:both;}
+.yinshi .tit {padding-top:38px; padding-left:40px; font-size:24px; color:#0a6062; font-family:'微软雅黑'; font-weight:bold;}
+.yinshi .yscon {width:935px; height:460px;overflow:hidden; margin:0 auto; margin-top:45px;}
+.yscon .yslft {width:305px; height:460px; float:left;}
+.yslft .ysbox {width:305px; height:193px;}
+.ysbox h3 {width:305px; background:url(ysbox.jpg) no-repeat left top; height:41px; color:#f2f3f7; font-family:'微软雅黑'; font-size:24px; text-align:center; line-height:41px;}
+.ysbox .ysword {width:279px; height:150px; line-height:23px; background:#81bbbd; padding:13px; color:#ab381c; text-indent:2em;}
+.ysword ul li {line-height:24px; background:url(dot2.jpg) no-repeat 10px center; overflow:hidden; height:24px;}
+.ysword .more {text-align:right; padding-right:15px;}
+.more a,.more a:link,.more a:visited {color:#88260e;}
+.more a:hover {text-decoration:underline;}
+
+
+.yscon .ysrit {width:575px; height:460px; margin-left:38px; float:right;}
+.ysrit dl {width:171px; height:163px; float:left; margin-left:29px; margin-top:50px;}
+.ysrit dl dt {width:171px; height:133px;}
+.ysrit dl dd {width:171px; height:30px; text-align:center; line-height:30px; color:#074d4f;}
+
+
+
+
+/*心理*/
+.xinli {width:1000px; padding-bottom:30px; overflow:hidden; margin:0 auto; background:url(xinli.jpg) no-repeat left top #f3f4f8; clear:both;}
+.xinli .tit {padding-top:36px; padding-left:40px; font-size:24px; color:#a7250b; font-family:'微软雅黑'; font-weight:bold;}
+.xinli .xlcon {width:935px; margin:0 auto; margin-top:30px;}
+.xlcon .xlbox {width:305px; height:175px; float:left; margin-left:10px; margin-top:10px;}
+.xlbox h3 {width:305px; background:url(xlbox.jpg) no-repeat left top; height:42px; color:#8a2f18; font-family:'微软雅黑'; font-size:18px; text-align:center; line-height:42px;}
+.xlbox .xlword {height:107px; width:279px; padding:13px; background:#f5e5cd; text-indent:2em;}
+.boxword a,.xlword span a {color:#88260e;}
+
+
+
+
+
+
+
+/*推荐*/
+.tjtit {height:64px; width:985px; margin:0 auto; background:url(tuijian.jpg) no-repeat left top #f0c4ba; font-weight:bold; font-family:'微软雅黑'; font-size:30px; color:#fff; line-height:64px; padding-left:15px;}
+
+.tuijian {border:12px solid #d4664b; width:976px; overflow:hidden; margin:0 auto; padding-bottom:22px;}
+.tuijian ul li {width:295px; height:93px; float:left; margin-left:22px; margin-top:22px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

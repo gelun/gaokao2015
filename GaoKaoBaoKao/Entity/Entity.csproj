@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FA0B4A9-5DDB-4059-93B3-0E2DCC9D3093}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aaa.cs" />
+    <Compile Include="AdvantageProfessional.cs" />
+    <Compile Include="AreaJson.cs" />
+    <Compile Include="Article.cs" />
+    <Compile Include="BenKeFenShu.cs" />
+    <Compile Include="CePing\Join_16PfAnswer.cs" />
+    <Compile Include="CePing\Join_16PfResults.cs" />
+    <Compile Include="CePing\Join_16PfTest.cs" />
+    <Compile Include="CePing\Join_AbilityResults.cs" />
+    <Compile Include="CePing\Join_AbilityTest.cs" />
+    <Compile Include="CePing\Join_Ability_Major.cs" />
+    <Compile Include="CePing\Join_DISCTest.cs" />
+    <Compile Include="CePing\Join_EvaluationUser.cs" />
+    <Compile Include="CePing\Join_HollandResults.cs" />
+    <Compile Include="CePing\Join_JiaoLvTest.cs" />
+    <Compile Include="CePing\Join_MbitAnswer.cs" />
+    <Compile Include="CePing\Join_MbitTest.cs" />
+    <Compile Include="CePing\Join_MbtiResults.cs" />
+    <Compile Include="CePing\Join_ProfessionResults.cs" />
+    <Compile Include="CePing\Join_ProfessionTest.cs" />
+    <Compile Include="CePing\Join_Project.cs" />
+    <Compile Include="CePing\Join_QiZhiTest.cs" />
+    <Compile Include="CePing\Join_Results.cs" />
+    <Compile Include="CePing\Join_StudyAbroad.cs" />
+    <Compile Include="CePing\Join_StudyAbroadAnswer.cs" />
+    <Compile Include="CePing\Join_Test.cs" />
+    <Compile Include="CePing\Join_TestWL.cs" />
+    <Compile Include="CePing\Join_TestWLResults.cs" />
+    <Compile Include="CePing\Join_XinLiTest.cs" />
+    <Compile Include="CePing\Join_ZhiYeMaoTest.cs" />
+    <Compile Include="CePing\Join_ZhongKeResults.cs" />
+    <Compile Include="CePing\Join_ZhongKeTest.cs" />
+    <Compile Include="DingDan.cs" />
+    <Compile Include="FenShengYuanXiaoLuQu.cs" />
+    <Compile Include="FenShengZhuanYeLuQu.cs" />
+    <Compile Include="FenShuXian.cs" />
+    <Compile Include="GaoKaoCard.cs" />
+    <Compile Include="GaoKaoZhenTi\area_province.cs" />
+    <Compile Include="GaoKaoZhenTi\cuotiben.cs" />
+    <Compile Include="GaoKaoZhenTi\edu_grade.cs" />
+    <Compile Include="GaoKaoZhenTi\edu_question_type.cs" />
+    <Compile Include="GaoKaoZhenTi\edu_subject.cs" />
+    <Compile Include="GaoKaoZhenTi\shijuan.cs" />
+    <Compile Include="GaoKaoZhenTi\ShiJuan2TiMu.cs" />
+    <Compile Include="GaoKaoZhenTi\student2tm.cs" />
+    <Compile Include="GaoKaoZhenTi\TiMuNeiRong.cs" />
+    <Compile Include="GaoKaoZhenTi\TiMuSuoYin.cs" />
+    <Compile Include="GaoKaoZhenTi\zhishidian.cs" />
+    <Compile Include="GaoKaoZhenTi\zhishidian2timusuoyin.cs" />
+    <Compile Include="JiuYeLv.cs" />
+    <Compile Include="Join_Card.cs" />
+    <Compile Include="Join_Student.cs" />
+    <Compile Include="KM.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Notice.cs" />
+    <Compile Include="OldProfessional.cs" />
+    <Compile Include="Professional.cs" />
+    <Compile Include="ProfessionalArticle.cs" />
+    <Compile Include="ProfessionalZhiYeRelation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Province.cs" />
+    <Compile Include="ProvinceConfig.cs" />
+    <Compile Include="ProvincePiCi.cs" />
+    <Compile Include="ProvinceWeiCi.cs" />
+    <Compile Include="ProvinceZhiYuan.cs" />
+    <Compile Include="School.cs" />
+    <Compile Include="SchoolArticle.cs" />
+    <Compile Include="SchoolCampus.cs" />
+    <Compile Include="SchoolCategory.cs" />
+    <Compile Include="SchoolDisciplines.cs" />
+    <Compile Include="SchoolProfessional.cs" />
+    <Compile Include="SeniorMiddleSchool.cs" />
+    <Compile Include="ShengKongXianArticle.cs" />
+    <Compile Include="ShiPin.cs" />
+    <Compile Include="StudentChengJi.cs" />
+    <Compile Include="StudentGaoKaoHistory.cs" />
+    <Compile Include="StudentGaoKaoHistory_ZheJiang.cs" />
+    <Compile Include="StudentShouCang.cs" />
+    <Compile Include="StudentZhiYuan.cs" />
+    <Compile Include="S_Province.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="S_City.cs" />
+    <Compile Include="S_District.cs" />
+    <Compile Include="XiangQing.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="YKStudentXinXi.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="ZhiShiDianRelation.cs" />
+    <Compile Include="ZhiYe.cs" />
+    <Compile Include="ZhiYeZhuanYe.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

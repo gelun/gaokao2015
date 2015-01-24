@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>弹出-休息一下</title>
+    <style type="text/css">
+        body
+        {
+            padding: 0;
+            margin: 0;
+        }
+        p, img, input
+        {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            border: none;
+        }
+        .wrap
+        {
+            width: 700px;
+            height: 583px;
+        }
+        .wrap .btn
+        {
+            width: 151px;
+            height: 53px;
+            position: absolute;
+            right: 66px;
+            bottom: 98px;
+        }
+        .wrap .btn .txt
+        {
+            width: 151px;
+            height: 53px;
+            background: url(images/btn_jxzt.jpg) no-repeat;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <p>
+            <img src="images/tc_1.jpg" width="700" height="150" /></p>
+        <p>
+            <img src="images/tc_2.jpg" width="700" height="150" /></p>
+        <p>
+            <img src="images/tc_3.jpg" width="700" height="150" /></p>
+        <p>
+            <img src="images/tc_4.jpg" width="700" height="133" /></p>
+        <div class="btn">
+            <input name="" id="jxzt" type="button" class="txt" /></div>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript">
+
+        $("#jxzt").click(function () {
+            jQuery('#dialog', window.parent.document).hide();
+            window.parent.setTimeout("time()", 1000);
+        });
+    </script>
+</body>
+</html>

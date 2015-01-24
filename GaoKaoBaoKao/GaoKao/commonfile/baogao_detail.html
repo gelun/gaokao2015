@@ -1,0 +1,109 @@
+﻿<style>
+    /*按钮*/
+    .a2
+    {
+        position: fixed;
+        display: none;
+        background: #000;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        filter: alpha(opacity=70);
+        z-index: 990;
+    }
+    
+    .anniu
+    {
+        height: 80px;
+        width: 142px;
+        margin: 0 auto;
+    }
+    .anniu .a1
+    {
+        height: 40px;
+        width: 142px;
+        margin: 0 auto;
+        background: #ff9f00;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .a3
+    {
+        position: fixed;
+        top: 30%;
+        left: 35%;
+        background: #ffffff;
+        height: 240px;
+        width: 390px;
+        text-align: center;
+        z-index: 1000;
+        display: none;
+    }
+    .a3 img
+    {
+        float: right;
+        cursor: pointer;
+    }
+    .a3 p
+    {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .a3 p span
+    {
+        color: #fe2929;
+        font-weight: bold;
+    }
+</style>
+<div class="a2" id="a2">
+</div>
+<div class="a3" id="a3">
+    <img src="/ceping/images/zhiyeg/zz.jpg" class="img" id="img">
+    <div style="margin-top: 40px;">
+        &nbsp;</div>
+    <p>
+        更详细的测试报告打印版及解读</p>
+    <p class="zb" style="display: none;">
+        请拨打<span>咨询电话400-8032-868</span></p>
+    <p class="zxzx">
+        请联系当地格伦教育咨询中心</p>
+    <p class="zxzx">
+        或拨打<span>总部咨询电话400-8032-868</span></p>
+</div>
+<div class="anniu">
+    <input type="button" value="更详细报告" class="a1" id="a1"></div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var dian = getCookie("dian");
+        if (dian == "ok") {
+            $(".zxzx").show();
+            $(".zb").hide();
+        } else {
+            $(".zxzx").hide();
+            $(".zb").show();
+        }
+
+
+        $("#a1").click(function () {
+            $("#a2").show();
+            $("#a3").show();
+        })
+
+        $("#img").click(function () {
+            $("#a2").hide();
+            $("#a3").hide();
+        })
+
+        var dian = getCookie("dian");
+
+    });
+    function getCookie(name)//取cookies函数        
+    {
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr != null) return unescape(arr[2]); return null;
+    }
+</script>

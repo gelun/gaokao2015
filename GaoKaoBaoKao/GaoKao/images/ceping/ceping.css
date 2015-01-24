@@ -1,0 +1,55 @@
+@charset "utf-8";/* CSS Document */
+/*资讯列表*/
+#Messagewrap{width:1200px;overflow:hidden;margin:10px auto}
+.MeddageL{width:1200px;}
+.MeddageL .Now{width:1198px;height:37px;line-height:37px;border:1px solid #D2D2D2;text-indent:15px;color:#3A3A3A}
+.Now a:link,.Now a:visited{color:#3A3A3A}
+.Now a:hover{color:#008DBB}
+.Now span.Arrow{padding:0 5px}
+.Now span.List{color:#37B4DC}
+.zyjd{width:1198px;overflow:hidden;border:1px solid #D2D2D2;margin:9px 0}
+.zyjd .zy_banner{width:733px;height:108px}
+.zyjd p{padding:10px 15px;line-height:24px;text-indent:2em;color:#383838}
+
+/*专业测评*/
+.Testwrap{width:1198px;padding:15px 15px 15px 20px;overflow:hidden}
+.First{width:222px;text-align:center;height:93px;float:left}
+.First .top{width:222px;text-align:center;height:93px}
+.First .top:hover{ display:block; background:url(h_dyb.jpg) center  no-repeat;}
+.First .current{ display:block; background:url(h_dyb.jpg) center  no-repeat;}
+.Arrows{width:90px;text-align:center;padding-top:35px;float:left;overflow:hidden}
+.Second{width:222px;text-align:center;height:93px;float:left}
+.Second .top{width:222px;text-align:center;height:93px}
+.Second .top:hover{ background:url(h_deb.jpg) center  no-repeat;}
+.Second .current{ display:block; background:url(h_deb.jpg) center  no-repeat;}
+.Third{width:222px;text-align:center;height:93px;float:left}
+.Third .top{width:222px;text-align:center;height:93px}
+.Third .top:hover{ background:url(h_dsb.jpg) center  no-repeat;}
+.Third .current{ display:block; background:url(h_dsb.jpg) center  no-repeat;}
+.Fourth{width:222px;text-align:center;height:93px;float:left}
+.Fourth .top{width:222px;text-align:center;height:93px}
+.Fourth .top:hover{ background:url(h_dsib.jpg) center  no-repeat;}
+.Fourth .current{ display:block; background:url(h_dsib.jpg) center  no-repeat;}
+
+.Perswrap{width:1198px;overflow:hidden;font-size:14px;line-height:30px;}
+.Perswrap div{margin:10px 0px;}
+
+.yi{border:1px solid #FF6C00}
+.er{border:1px solid #37b5dd}
+.san{border:1px solid #91c421}
+.si{border:1px solid #fe6a68}
+.Perswrap .PF{width:1198;height:62px;font:normal 24px/62px "微软雅黑";text-align:center;color:#FF6B00}
+.Perswrap .Art{padding:14px 30px 20px;width:1138px}
+.Art .tu{float:left;margin:8px;}
+.Art .tur{float:right;margin:8px;}
+.Art .Dl{width:774px;padding-left:10px;float:left;text-indent:2em;line-height:24px;padding-top:5px;overflow:hidden}
+.Art .Yd{line-height:24px}
+table.Test{background:#CFCFCF;margin:10px 61px 15px 75px;width:825px;color:#000}
+table.Test tr{background:#fff;height:26px;line-height:26px}
+table.Test td{padding-left:8px}
+table.Test td.Center{text-align:center}
+.Perswrap p{padding:5px 32px;text-indent:2em;line-height:24px;color:#414143}
+.Cesi{width:1198px;padding:30px 0;text-align:center}
+.ceping_img{text-align:center;}
+
+h2 {font-size: 16px;height: 50px;line-height: 50px;color:#FF6B00;padding-left: 20px;}

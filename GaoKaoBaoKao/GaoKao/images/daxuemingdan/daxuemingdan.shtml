@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>大学名单_格伦高考网</title>
+    <link href="http://newtest.gelunjiaoyu.com/css/Nav_daxue.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <!--#include file="/commonfile/head.shtml"-->
+    <div id="Present">
+        <a href="#">格伦高考</a><span>></span> 大学名单</div>
+    <div id="Mapwrap">
+        <div class="mapL" style="margin-top: -40px;">
+            <embed src="/daxuemingdan/Skin/DTOP/swf/map.swf" quality="high" width="617" height="617" wmode="transparent"
+                flashvars='北京=1&天津=2&河北=3&山西=4&内蒙古=5&辽宁=6&吉林=7&黑龙江=8&上海=9&江苏=10&浙江=11&安徽=12&福建=13&江西=14&山东=15&河南=16&湖北=17&湖南=18&广东=19&广西=20&海南=21&重庆=22&四川=23&贵州=24&云南=25&西藏=26&陕西=27&甘肃=28&青海=29&宁夏=30&新疆=31&台湾=32&香港=33&澳门=34'
+                type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+        </div>
+        <script language="javascript">
+            function flashReturn(prov, id) {
+
+                $(".righthtml").eq(id - 1).css("display", "block").siblings().css("display", "none");
+                $(".mapL").css("display", "block");
+                //                //真正使用时，下面的一行js请去掉
+                //                if (id == null) { alert("你选择的是“" + prov + "”，但我只加了“内蒙古”和“黑龙江”的节点和数据，点击“内蒙古”和“黑龙江”看看效果。"); return; }
+
+
+                ////js正式开始
+                //                    jQuery("#mapFrame").attr("src", "/Category_" + id + "/Index.aspx");
+                //                    var box = jQuery("#popBox");
+                //                    box.show();
+                //                    box.find(".hd em").html(prov);
+                //                    box.find(".hd i").click(function () { box.hide() });
+            }
+
+        </script>
+        <div class="righthtml">
+            <!--#include file="/commonfile/map/beijing.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/tianjin.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/hebei.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/shanxi.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/neimenggu.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/liaoning.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/jilin.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/heilongjiang.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/shanghai.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/jiangsu.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/zhejiang.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/anhui.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/fujian.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/jiangxi.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/shandong.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/henan.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/hubei.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/hunan.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/guangdong.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/guangxi.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/hainan.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/chongqing.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/sichuan.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/guizhou.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/yunnan.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/xizang.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/shanxi2.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/gansu.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/qinghai.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/ningxia.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/xinjiang.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/taiwan.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/xianggang.shtml"-->
+        </div>
+        <div class="righthtml" style="display: none;">
+            <!--#include file="/commonfile/map/aomen.shtml"-->
+        </div>
+    </div>
+ 
+    <!--#include file="/commonfile/bottom.shtml"-->
+</body>
+</html>

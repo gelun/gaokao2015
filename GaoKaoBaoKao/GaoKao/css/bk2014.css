@@ -1,0 +1,105 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; color:#1b1b1b;}
+h1,h2,h3,h4,p,ul,li,dl,dt,dd,img,input{ padding:0; margin:0; list-style:none; border:none;}
+a:link,a:visited{ text-decoration:none; color:#1B1B1B;}
+a:hover{ color:#b70000; text-decoration:underline;}
+#MateTop{ width:100%; height:27px; line-height:27px; border-bottom:1px solid #DDD; background:#F5F5F5;}
+.mateBox{ width:1000px; margin:0 auto;}
+.mateBox .city{ float:left; width:300px; padding-left:5px;}
+.mateBox .city  a{color:#0084E9;font-weight:bold;font-size:16px;}
+.mateBox .city a:link,.mateBox .city a:visited{color:#0084E9;}
+.mateBox .web{ width:400px; float:right; text-align:right;}
+.mateBox .web a{ display:inline-block; color:#686868;}
+.mateBox .web a:hover{ text-decoration:none; color:#0185D9;}
+.mateBox .web a.wz{ background:url(../images/icon_x1.jpg) no-repeat left center; padding-left:15px;}
+.mateBox .web span{ margin:5px; color:#DCDCDC;}
+/*Banner2*/
+#Banner2{ width:100%; height:284px; background:#FFDEDE;}
+#Banner2 .art{ width:1000px; height:284px; margin:0 auto; background:url(../images/banner1.jpg) no-repeat; position:relative;}
+#Banner2 .art p{ width:580px; height:83px; text-indent:2em; position:absolute; top:200px; right:68px} 
+/*Navwrap*/
+#Navwrap{ width:100%; height:40px; line-height:40px; background:#B70000;}
+#Navwrap .Nav{ width:1000px; margin:0 auto;}
+.Nav li{ float:left;}
+.Nav li a:link,.Nav li a:visited{ color:#fff; padding:0 70px; font-size:14px; font-weight:bold; display:block;}
+.Nav li a:hover{ background:#8D0000; text-decoration:none;}
+.Nav li.current a{ background:#8D0000; }
+#Header .search .rit .btn{ width:43px; height:26px; background:url(../images/btn_ss.jpg) no-repeat;}
+/*Content*/
+#Content{ width:1000px; overflow:hidden; margin:15px auto 10px;}
+#Content .conL{ width:336px; overflow:hidden;  float:left;}
+.conL .adver{ width:336px; height:322px;}
+.conL .adver .qh{ width:336px;}
+.adver .time{ width:336px; height:73px; background:url(../images/time.jpg) no-repeat; margin-top:10px;}
+.adver .date{ width:320px; height:26px; padding-top:5px; text-align:right; font:bold 16px/26px "微软雅黑"; color:#FF9898;} 
+.adver .day{ width:320px; text-align:right; height:34px; font:bold 28px/34px "微软雅黑";}
+.adver .day strong{ padding:0 6px; color:#B70000;}
+.conL .artwrap{width:337px;  margin-top:5px;}
+.artwrap .art_tit{ width:324px; height:39px; padding-left:13px; background:url(../images/tit_top5.jpg) no-repeat;}
+.art_tit .titL{font:bold 14px/26px "宋体"; color:#fff; float:left; width:150px;}
+.art_tit .titR{ width:45px; line-height:34px; float:right; }
+.artwrap .flowbox{width:311px;  _height:790px;   background:url(../images/tit_cnt5.jpg) repeat-y; padding:10px 0 10px 25px; _padding:12px 0 10px 25px;}
+.artwrap .flowbox li{ height:28px; line-height:28px; _height:29px; _line-height:29px; background:url(../images/dot_3.jpg) no-repeat left center; padding-left:10px;}
+.artwrap .btm{ width:336px; height:9px; background:url(../images/tit_bot5.jpg) no-repeat;}
+#Content .conR{ width:645px;   float:right;}
+.conR .Topwrap{ width:645px; height:323px;}
+.Topwrap .Listwrap{ width:330px; float:left;}
+.Listwrap .Latest{width:330px; height:30px; padding-top:6px; border-bottom:1px solid #D8D8D8;}
+.Listwrap .Latest h2{ width:80px; height:28px; border-bottom:2px solid #838383; background:url(../images/icon_lft3.jpg) no-repeat left top; padding-left:13px; font:bold 18px/18px "微软雅黑"; float:left;}
+.Listwrap .Latest .add{ float:right; width:40px; line-height:30px; padding-right:5px;}
+.Latest .add a:link,.Latest .add a:visited{ color:#181818;}
+.Latest .add a:hover{ color:#b70000;}
+.Listwrap .List{ overflow:hidden;}
+.Listwrap .List ul{ padding-top:5px;}
+.Listwrap .List ul.split{ border-top:1px solid #E5E5E5;}
+.Listwrap .List li{ line-height:28px; height:28px; _height:26px; _line-height:26px; padding-left:7px;}
+.Listwrap .List li a:link,.Listwrap .List li a:visited{ float:left; background:url(../images/dot_3.jpg) no-repeat left center; padding-left:12px; color:#191919;}
+.Listwrap .List li a:hover{ color:#b70000; text-decoration:underline;}
+.Listwrap .List li span{ float:right; padding-right:5px; color:#8D8D8D;}
+.conR .Askwrap{ width:298px; height:323px; float:right;}
+.Askwrap .art_tit{width:298px;height:39px; background:url(../images/tit_top4.jpg) no-repeat;}
+.Askwrap .art_tit span{ float:left; padding-left:13px;font:bold 14px/26px "宋体"; color:#fff;} 
+.Askwrap .art_tit a:link,.Askwrap .art_tit a:visited{ float:right; line-height:32px; padding-right:10px;}
+.Askwrap .flowbox{width:273px; overflow:hidden; background:url(../images/tit_cnt4.jpg) repeat-y; padding:10px 0 10px 25px;}
+.flowbox p{ height:26px; line-height:26px; color:#B60000;}
+.flowbox .choose{ height:26px; line-height:26px; padding-left:10px;}
+.choose .one{ float:left; margin-right:15px; _margin-right:10px;}
+.choose .one span{ padding:0 5px;}
+.flowbox .btn{ width:235px; height:30px;padding:15px 0 0 35px;}
+.flowbox .btn .tj{ width:78px; height:23px; float:left; margin-right:26px;}
+.Askwrap .btm{ width:298px; height:9px; background:url(../images/tit_bot4.jpg) no-repeat;}
+.conR .general{ width:645px;   }
+.general .tit{ width:645px; height:34px; margin:6px 0 8px;_margin:15px 0 13px;}
+.general .titL{ width:320px; height:32px; float:left; background:url(../images/icon_lft3.jpg) no-repeat left top; border-bottom:2px solid #838383; padding-left:15px; font:bold 18px/20px "微软雅黑";}
+.general .titR{ width:310px; float:left; height:33px; border-bottom:1px solid #DADADA; } 
+.general .Tab1{ width:634px; height:808px; margin:11px 8px 0 3px;}
+.Tab1 table{ width:634px; height:782px; background:#B70000;}
+.Tab1 table th{ height:29px; line-height:29px; color:#B70000; background:#ECE0E0;}
+.Tab1 table td{background:#fff; height:22px; text-align:center;}
+/*Bottomwrap*/
+#Bottomwrap{ width:1000px; height:220px; margin:0 auto 15px;}
+#Bottomwrap .botL{ width:487px; float:left;}
+#Bottomwrap .botR{ width:487px; float:right; margin-right:8px; _display:inline;}
+#Bottomwrap .tit{ width:487px; height:39px; background:url(../images/tit_top3.jpg) no-repeat;} 
+#Bottomwrap .tit span{ float:left; padding-left:13px;font:bold 14px/28px "宋体"; color:#fff;}
+#Bottomwrap .tit a:link,#Bottomwrap .tit a:visited{ float:right; line-height:32px; padding-right:10px;}
+#Bottomwrap .con{ width:459px; background:url(../images/tit_cnt3.jpg) repeat-y; padding:19px 0 19px 28px; overflow:hidden;}
+#Bottomwrap .con .pic{ width:216px; height:132px; float:left;}
+#Bottomwrap .con .list{ float:left; width:225px; padding:7px 0;} 
+.con .list li{ height:24px; line-height:24px; background:url(../images/dot_2.jpg) no-repeat left center; padding-left:10px;}
+#Bottomwrap .btm{ width:487px; height:9px; background:url(../images/tit_bot3.jpg) no-repeat;}
+#Bottomwrap .cent{ width:459px; background:url(../images/tit_cnt3.jpg) repeat-y; padding:14px 0 14px 28px; overflow:hidden;}
+.cent li{ height:24px; line-height:24px;}
+.cent li a:link,.cent li a:visited{ background:url(../images/dot_2.jpg) no-repeat left center; padding-left:10px;}
+/*Mail*/
+#Mail{ width:984px;height:40px; line-height:40px; margin:0 auto 15px; border:1px solid #FFCACA; background:url(../images/bot_bg.jpg) repeat-x; text-align:center; }
+#Mail span{ margin-right:45px; }
+#Mail span.two{ color:#B70000;}
+
+
+#Mail span a:link,#Mail span a:visited{color:#B70000; }
+/*Footer*/
+#Footer{ width:100%; text-align:center; padding:15px 0; border-top:1px solid #E5E5E5; color:#000;}
+/*头部修改*/
+.headL .logo2{width:195px; height:37px; float:left; margin-top:15px;}

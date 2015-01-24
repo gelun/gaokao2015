@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;padding:0; font-size:12px;color:#000; font-family:"宋体";}
+h1,h2,h3,h4,h5,h6,p,ul,li,img{margin:0;padding:0; list-style:none; border:0;}
+a:link,a:visited{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+/*首页*/
+.tu1{width:595px;height:118px;margin:0 auto; background:url(../images/tu1.jpg) no-repeat;}
+.tu2{width:595px;height:77px;margin:0 auto; background:url(../images/tu2.jpg) no-repeat;padding-top:60px; font-size:52px; font-family:"微软雅黑"; text-indent:65px; font-weight:bold;}
+.tu3{width:595px;height:136px;margin:0 auto; background:url(../images/tu3.jpg) no-repeat;}
+.tu4{width:595px;height:152px;margin:0 auto; background:url(../images/tu4.jpg) no-repeat;}
+.tu5{width:595px;height:151px;margin:0 auto; background:url(../images/tu5.jpg) no-repeat;}
+.tu6{width:595px;height:148px;margin:0 auto; background:url(../images/tu6.jpg) no-repeat;}
+.contants{width:1000px; overflow:hidden;margin:10px auto 0;}
+.tit1{width:100%;height:40px; line-height:40px;color:#fff; background:url(../images/tit1.gif) no-repeat; text-align:center; font-size:20px; font-weight:bold;}
+.tit2{width:100%;height:40px;line-height:40px; border-bottom:2px solid #a9a9a9; font-size:16px;color:#308500; text-indent:12px; font-weight:bold;}
+.tit3{ background:url(../images/tit3.gif) no-repeat 12px center;height:40px; line-height:40px; text-indent:40px; font-size:14px; font-weight:bold;}
+.contants p{ text-indent:24px; font-size:14px; line-height:18px;padding:20px 0 0;}

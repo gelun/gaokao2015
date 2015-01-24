@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>理科测试系统</title>
+
+
+</head>
+<style type="text/css">
+body{font-size:14px; font:"宋体";color:#352f2d;font-family:"Microsoft YaHei";}
+*{ margin:0px; padding:0px; border:0px;line-height:30px;}
+ul,li{ list-style-type:none;}
+img{border:0px;margin:0px;padding:0px;}
+/*页面顶部外框*/
+.box{width:1000px;margin:0px auto 0px;}
+.fb{margin-top:15px;}
+.box_c{clear:both;background:url("../images/box_bg.png") repeat-y top center;}
+.bc{width:870px;margin:0px auto;}
+/*顶部部分*/
+.bc_t{ height:60px; padding-top:10px;}
+.bc_t_l{float:left;width:340px;}
+.bc_t_l img{float:left;}
+.bc_t_l span{float:right;padding-left:15px;display:block;height:30px; margin-top:6px;font-size:18px; border-left:1px solid #d8d8d8;}
+
+.bc_t_r{float:right;width:410px;margin-top:10px;vertical-align:center;}
+.bc_t_r_l { float:left;}
+.jdt{float:left; background:url("../images/jdt_bg.png") no-repeat; width:300px;height:22px;text-align:left;}
+.jdt img{margin-left:1px;}
+.bc_t_r_b { float:left;}
+.bc_t_r_b span {color:#7a9900; font-size:18px; font-weight:bold;} 
+/*中间部分*/
+.bc_c{clear:both;min-height:410px;}
+.prompt{border-top:1px solid #ccc; border-bottom:1px solid #ccc;height:60px; line-height:60px; background:url(../images/g.gif) no-repeat 170px 10px;font-size:22px;color:#848484; font-weight:bold; text-align:center;}
+.prompt img{width:408px;height:34px;margin-top:12px;}
+.cont{padding:35px 40px;}
+.cont h2{ font-size:20px;color:#085da5;}
+.text{width:730px; overflow:hidden;}
+.text dt{ font-weight:bold; float:left;width:80px;}
+.job{margin-top:15px;}
+.job h3{ font-size:16px;}
+.bot{ text-align:center;padding:20px 0;}
+.button{width:181px;height:42px; line-height:42px; font-weight:bold;color:#fff; font-size:16px; cursor:pointer;background:url(../images/button.gif) no-repeat;}
+.bcb{clear:both;text-align:right;padding:20px 20px 0px 0px;}
+.alert_info{position:relative;top:-15px;right:10px;color:red;vertical-align:middle; margin-bottom:2px;}
+	</style>
+
+       <link href="../css/Test.css" type="text/css"  rel="Stylesheet" rev="Stylesheet"/>
+
+<body>
+<div class="box fb"><img src="../images/box_top.png"></div>
+<div class="box box_c">
+        <div class="bc bc_t">
+            <div class="bc_t_l">
+                <img src="../images/logo.png" /><span>格伦测评系统</span></div>
+        </div>
+        <div class="bc bc_c">
+        	<div class="prompt"><img src="../images/lkwz.gif" /></div>
+            <div class="cont">
+            	<h2>理科特点：</h2>
+                <dl class="text">
+                	<dt>人才特点：</dt>
+                    <dd>以推理和研究为主要能力的逻辑思维。</dd>
+                    <dt>学习特点：</dt>
+                    <dd>以记忆、理解、推理、计算为特点的学习。理科需要推理能力强，逻辑思维能力强。</dd>
+                    <dt>录取比例：</dt>
+                    <dd>对应的高等院校很多，社会需求较多。</dd>
+                    <dt>就业方面：</dt>
+                    <dd>技术为对象的生产型人才，可从事的职业类型较多。</dd>
+                </dl>
+                <div class="job">
+                	<h3>各自比较好的工作</h3>
+                    <p>光电类、医学类、会计师、公务员、老师、工程师等。</p>
+                </div>
+            </div>
+            <div class="bot"><input type="button" class="button"  onclick="gotoIndex();" value="返回首页"></div>
+        </div>
+        
+</div>
+<div class="box">
+        <img src="../images/box_bottom.png" />
+    </div>
+
+<script type="text/javascript">
+
+    function gotoIndex() {
+        location.href = "/Default.aspx";
+    }
+
+</script>
+</body>
+
+
+</html>

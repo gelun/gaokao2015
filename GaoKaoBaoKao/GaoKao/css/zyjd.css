@@ -1,0 +1,168 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0;color:#1B1B1B; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:url(../images/zhuanyejiedu/jb_3.jpg) repeat-x left 27px;}
+h1,h2,h3,h4,p,ul,li,dl,dt,dd,input,img{ padding:0; margin:0; border:none; list-style:none;}
+a:link,a:visited{ color:#1B1B1B; text-decoration:none;}
+a:hover{ color:#007DC5; text-decoration:underline;}
+#MateTop{ width:100%; height:27px; line-height:27px; border-bottom:1px solid #DDD; background:#F5F5F5;}
+.mateBox{ width:1000px; margin:0 auto;}
+.mateBox .city{ float:left; width:300px; padding-left:5px;}
+.mateBox .city  a{color:#0084E9;font-weight:bold;font-size:16px;}
+.mateBox .city a:link,.mateBox .city a:visited{color:#0084E9;}
+.mateBox .web{ width:400px; float:right; text-align:right;}
+.mateBox .web a{ display:inline-block; color:#686868;}
+.mateBox .web a:hover{ text-decoration:none; color:#0185D9;}
+.mateBox .web a.wz{ background:url(../images/icon_x1.jpg) no-repeat left center; padding-left:15px;}
+.mateBox .web span{ margin:5px; color:#DCDCDC;}
+
+/*Header*/
+#Header{ width:1000px; height:70px; margin:18px auto 0;}
+.headL{ width:370px; float:left;} 
+.headL .logo{ float:left; width:203px; height:57px;}
+.headL .city{ float:left; width:200px; height:57px; padding-left:15px;}
+.headL .city a:link,.headL .city a:visited{ color:#797979; font:bold 24px/57px "宋体"; color:#c82c32;}
+.headL .city a:hover{ color:#BD373D;}
+.headR{ width:335px; height:31px; padding-top:28px;float:right; text-align:right;}
+.headR a:link,.headR a:visited{ display:inline-block; height:23px; line-height:23px; color:#1b1b1b;}
+.headR a:hover{ text-decoration:none;}
+.headR a.wz{ background:url(../images/icom_sc.jpg) no-repeat left center;padding-left:15px; color:#686868;}
+.headR span{ margin:5px; color:#dbdbdb;} 
+#Header .search .rit .btn{ width:43px; height:26px; background:url(../images/btn_ss.jpg) no-repeat;}
+#Header .search{ width:293px; height:26px; margin-top:26px; float:left;}
+#Header .search .lft{ width:247px; height:26px; float:left;}
+#Header .search .lft .txt{ width:247px; height:26px; line-height:24px; background:url(../images/txt.jpg) no-repeat;  padding-left:5px; float:left;}
+#Header .search .rit{ float:left; width:43px;} 
+/*Banner1*/
+#Banner1{height:295px; margin:0px auto 0;text-align:center;}
+/*Contents*/
+#Contents{ width:980px; background:#FFF; overflow:hidden; margin:0 auto; padding:10px 5px  0px 5px;}
+#Contents .conL{ width:710px; float:left;} 
+.conL .listwrap{ width:710px; height:293px; margin-bottom:15px;}
+.listwrap .lft{ width:290px; height:293px; float:left;padding-right:10px;}
+.listwrap .rit{ width:410px; height:293px; float:left;}
+.listwrap .rit .tit{ width:410px; height:32px;}
+.listwrap .rit .titL{ width:75px; height:30px; border-bottom:2px solid #838383; background:url(../images/zhuanyejiedu/icon_lft.jpg) no-repeat left top; padding-left:12px; font:bold 16px/20px "微软雅黑"; float:left;}
+.listwrap .rit .titR{ width:318px; height:31px; line-height:31px; text-align:right; float:left; border-bottom:1px solid #DADADA; padding-right:5px;}
+.listwrap .rit .list{ width:407px; padding:8px 0 0 3px; height:253px;}
+.listwrap .rit li{ height:26px; line-height:26px;}
+.listwrap .rit li span{ float:right; padding-right:5px; color:#8F8F8F;}
+.listwrap .rit li a:link,.listwrap .rit li a:visited{ background:url(../images/zhuanyejiedu/dot_1.jpg) no-repeat left center; padding-left:10px;}
+/*Title*/
+.conL .Title{ width:165px; height:30px; background:url(../images/zhuanyejiedu/tit_bg1.jpg) no-repeat; font:bold 20px/30px "微软雅黑"; padding-left:40px; margin-bottom:15px;}
+/*conwrap1*/
+.conL .conwrap1{ width:710px; height:142px; margin-bottom:10px;}
+.conwrap1 .box{ width:345px; height:140px; background:url(../images/zhuanyejiedu/jb_2.jpg) repeat-x; border:1px solid #DEDEDE; float:left; margin-right:16px;}
+.conwrap1 .box dl{ width:329px; padding:0 8px;}
+.conwrap1 .box dt a:link,.conwrap1 .box dt a:visited{border-bottom: 1px solid #88AFDD;color: #014FB1; font: bold 16px/36px "楷体"; height: 36px; padding-left: 10px; width: 319px; display:block;}
+.conwrap1 .box dt a:hover{ text-decoration:none;}
+.conwrap1 .box dd{ width:311px; padding:5px 9px; text-indent:2em; font-size:14px; font-family:"楷体";}
+.conwrap1 .box dd a:link,.conwrap1 .box dd a:visited{ color:#F00;}
+/*conwrap2*/
+.conL .conwrap2{ width:710px; height:152px; margin-bottom:10px;}
+.conwrap2 .wrapL{ width:347px; height:152px; float:left; margin-right:16px; background:url(../images/zhuanyejiedu/bg_2.jpg) no-repeat bottom;}
+.conwrap2 .tit{ width:347px; height:39px; float:left;}
+.conwrap2 .titL{ width:140px; height:39px; font:bold 14px/26px "宋体"; color:#FFF; float:left; background:url(../images/zhuanyejiedu/tit_bg2.jpg) no-repeat; padding-left:15px;}
+.conwrap2 .titR{ width:180px; height:39px; line-height:33px; text-align:right; padding-right:11px; float:left; background:url(../images/zhuanyejiedu/tit_bg3.jpg) repeat-x; border-right:1px solid #B8D7FF;}
+.conwrap2 .cont{ width:326px; height:100px; background:url(../images/zhuanyejiedu/bg_1.jpg) repeat-y; padding:5px 0 0 21px;}
+.conwrap2 .cont li{ height:22px; line-height:22px; background:url(../images/zhuanyejiedu/dot_1.jpg) no-repeat left center; padding-left:10px;}
+/*conR*/
+#Contents .conR{ width:260px; float:right;} 
+.conR .box1{ width:260px; height:199px; margin-bottom:10px;}
+.conR .box1 .tit{ width:260px; height:40px; line-height:40px; background:url(../images/zhuanyejiedu/jb_1.jpg) repeat-x;}
+.conR .box1 .tit strong{ font-size:14px; padding-left:11px;}
+.conR .box1 .tit span{ color:#7A7A7A;}
+.conR .box1 .wrap{ width:236px; height:137px; border:1px solid #BFD7F0; padding:20px 0 0 22px;}
+.box1 .wrap li{ width:70px; height:30px; line-height:30px; background:url(../images/zhuanyejiedu/dot_1.jpg) no-repeat left center; padding-left:10px; float:left;}
+.box1 .wrap li.Nomar{ width:65px;}
+.conR .box2{width:260px; height:287px; margin-bottom:10px;}
+.conR .box2 .tit{ width:260px; height:40px; line-height:40px; background:url(../images/zhuanyejiedu/jb_1.jpg) repeat-x;}
+.conR .box2 .tit strong{ font-size:14px; padding-left:11px;}
+.conR .box2 .tit span{ color:#7A7A7A;}
+.conR .box2 .list{width:246px; height:225px; border:1px solid #BFD7F0; padding:20px 0 0 12px;}
+.conR .box2 .list li{ height:30px; line-height:30px; background:url(../images/zhuanyejiedu/dot_1.jpg) no-repeat left center; padding-left:10px; float:left; margin-right:22px;}
+.conR .box2 .list li.Nomar{ margin-right:0;}
+.conR .box2 .list li.Nobg{ background:none;}
+.conR .box3{ width:260px; overflow:hidden;}
+.conR .box3 .tit{ width:260px; height:40px; line-height:40px; background:url(../images/zhuanyejiedu/jb_1.jpg) repeat-x;}
+.conR .box3 .tit strong{ font-size:14px; padding-left:11px;}
+.conR .box3 .conbox{ width:258px; border:1px solid #BFD7F0; padding-top:15px;}
+.box3 .conbox .titwrap{ width:258px; height:26px; border-bottom:1px solid #CCC;}
+.conbox .titwrap .lft{ width:100px; height:26px; color:#014FB1; float:left; padding-left:10px; font:bold 14px/26px "宋体";}
+.conbox .titwrap .rit{ width:148px; height:20px; padding-top:6px; float:left;}
+.titwrap .rit li{ width:64px; height:20px; line-height:20px; float:left; text-align:center;}
+.titwrap .rit li:hover{background:#fff; border:1px solid #CCC; border-bottom:none;}
+.titwrap .rit li.current{background:#fff; border:1px solid #CCC; border-bottom:none;}
+.box3 .conbox .list{ width:238px; padding:12px 0 17px 10px; overflow:hidden;}
+.box3 .conbox .list ul{ background:url(../images/zhuanyejiedu/number.jpg) no-repeat left center; padding-left:24px;}
+.box3 .conbox .list li{ height:15px; line-height:15px; margin-bottom:13px;}
+.conbox .list li i{ font-style:normal; display:inline-block; width:120px;}
+.conbox .list li span.one{ width:30px; display:inline-block; color:#989898;}
+.conbox .list li span a:link,.conbox .list li span a:visited{ color:#F00;}
+.conbox .list li.blue i a:link,.conbox .list li.blue i a:visited{ color:#014FB1;}
+/*Banner2*/
+#Banner2{ width:1000px; height:92px; margin:0 auto;}
+/*Wrapone*//*
+#Wrapone{ width:1000px; height:501px; margin:15px auto;}
+.wraponeL{ width:710px; float:left;}
+.wraponeL .Title{ width:265px; height:30px; background:url(../images/zhuanyejiedu/tit_bg1.jpg) no-repeat; font:bold 20px/30px "微软雅黑"; padding-left:40px; margin-bottom:15px;}
+.wraponeL .boxone{ width:725px; height:229px; background:url(../images/zhuanyejiedu/bg_4.jpg) no-repeat right bottom #E0EDF6; margin-bottom:15px;}
+.wraponeL .boxone dl{ width:366px; padding:25px 0 0 25px;}
+.wraponeL .boxone dt{ height:40px; line-height:40px; font:26px/40px "楷体"; color:#004FB1;}
+.wraponeL .boxone dd{ font:18px/26px "楷体";  text-indent:2em;}
+.wraponeL .boxone dd a:link,.wraponeL .boxone dd a:visited{ color:#f00;}
+.wraponeL .boxtwo{ width:368px; height:200px; background:url(../images/zhuanyejiedu/bg_5.jpg) no-repeat left bottom #E0EDF6; padding:15px 0 0 357px;}
+.wraponeL .boxtwo .tit{ height:40px; line-height:40px; font:26px/40px "楷体"; color:#004FB1;}*/
+
+#Wrapone{ width:1000px; height:501px; margin:15px auto;}
+.wraponeL{ width:710px; float:left;}
+.wraponeL .Title{ width:265px; height:30px; background:url(../images/zhuanyejiedu/tit_bg1.jpg) no-repeat; font:bold 20px/30px "微软雅黑"; padding-left:40px; margin-bottom:15px;}
+.wraponeL .boxone{ width:710px; height:229px; background:url(../images/zhuanyejiedu/bg_4.jpg) no-repeat right bottom #E0EDF6; margin-bottom:15px;}
+.wraponeL .boxone dl{ width:366px; padding:25px 0 0 25px;}
+.wraponeL .boxone dt{ height:40px; line-height:40px;}
+.wraponeL .boxone dt{font:26px/40px "楷体"; color:#004FB1;}
+.wraponeL .boxone dt a:link,.wraponeL .boxone dt a:visited{ font:26px/40px "楷体"; color:#004FB1;}
+.wraponeL .boxone dt a:hover{ text-decoration:none;}
+.wraponeL .boxone dd{ font:18px/26px "楷体";  text-indent:2em;}
+.wraponeL .boxone dd a:link,.wraponeL .boxone dd a:visited{ color:#f00;}
+.wraponeL .boxtwo{ width:353px; height:200px; background:url(../images/zhuanyejiedu/bg_5.jpg) no-repeat left bottom #E0EDF6; padding:15px 0 0 357px;}
+.wraponeL .boxtwo .tit{ height:40px; line-height:40px;font:26px/40px "楷体"; color:#004FB1;}
+.wraponeL .boxtwo .tit a:link,.wraponeL .boxtwo .tit a:visited{ font:26px/40px "楷体"; color:#004FB1;}
+.wraponeL .boxtwo .tit a:hover{ text-decoration:none;}
+
+.wraponeL .boxtwo .list{ width:350px; height:148px;}
+.wraponeL .boxtwo li{ height:24px; line-height:24px; background:url(../images/zhuanyejiedu/dot_1.jpg) no-repeat left center; padding-left:10px; }
+.wraponeR{ width:260px; float:right;}
+.wraponeR .survey{ width:260px; height:275px; margin-bottom:15px;}
+.survey .tit{ width:260px; height:40px; line-height:40px; background:url(../images/zhuanyejiedu/jb_1.jpg) repeat-x;}
+.survey .tit strong{ font-size:14px; padding-left:11px;}
+.survey .wrap{ width:246px; height:233px; border:1px solid #BFD7F0; padding-left:12px;}
+.survey .wrap .choose{ height:32px; line-height:32px; font-weight:bold; color:#014FB1;}
+.survey .wrap p{ height:26px; line-height:26px;}
+.survey .wrap p .txt{ vertical-align:middle;}   
+.survey .wrap p span{ padding-left:5px;}
+.survey .wrap .btn{ height:23px; padding:5px 0 0 30px;}
+.survey .wrap .btn a{ margin-right:25px;}
+.wraponeR .test{ width:260px; height:215px;}
+.wraponeR .test .tit{width:260px; height:40px; line-height:40px; background:url(../images/zhuanyejiedu/jb_1.jpg) repeat-x;}
+.wraponeR .test .tit strong{ font-size:14px; padding-left:11px;}
+.wraponeR .test .list{ width:243px; height:158px; border:1px solid #BFD7F0; padding:15px 0 0 15px;}
+.test .list li{ height:26px; line-height:26px; background:url(../images/zhuanyejiedu/dot_1.jpg) no-repeat left center; padding-left:10px;}
+/*Caption*/
+.Caption{ width:960px;height:30px; background:url(../images/zhuanyejiedu/tit_bg1.jpg) no-repeat; font:bold 20px/30px "微软雅黑"; padding-left:40px; margin:0 auto 15px;}
+/*Photowrap*/
+#Photowrap{ width:1000px; height:219px; margin:0 auto;}
+#Photowrap li{ width:218px; height:199px; float:left; margin-right:40px; border:1px solid #D7D7D7;}
+#Photowrap li.Nomar{ margin-right:0;}
+#Photowrap li a{ display:block;}
+#Photowrap li span{ display:block; width:218px; height:29px; line-height:29px; text-align:center; color:#fff; background:url(../images/zhuanyejiedu/tit_bg4.jpg) no-repeat;}
+/*Docbox*/
+.Docbox{ width:998px; height:40px; line-height:40px;text-align:center; background:url(../images/zhuanyejiedu/mail_bg.jpg) repeat-x; border:1px solid #98CEFF; margin:0 auto; color:#1D77CB; margin-bottom:15px;}
+.Docbox span.one{ color:#1B1B1B;}
+.Docbox span{ margin-right:30px;}
+.Docbox a:link,.Docbox a:visited{ color:#1D77CB;}
+.Docbox span.one{ color:#1b1b1b;}
+/*Footer*/
+#Footer{ width:100%; border-top:1px solid #DDD; margin:0 auto; padding:10px 0; line-height:26px; color:#919191; text-align:center;}
+
+/*头部修改*/
+.headL .logo2{width:195px; height:37px; float:left; margin-top:15px;}

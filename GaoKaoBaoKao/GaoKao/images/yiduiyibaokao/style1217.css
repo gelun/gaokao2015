@@ -1,0 +1,69 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0;color:#1b1b1b; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; position:relative}
+h1,h2,h3,h4,p,ul,li,dl,dt,dd,input,img,tr,th,td{ padding:0; margin:0; border:none; list-style:none;}
+a:link,a:visited{ color:#656565; text-decoration:none;}
+a:hover{ color:#0185D9; text-decoration:underline;}
+#MateTop{ width:100%; height:27px; line-height:27px; border-bottom:1px solid #DDD; background:#F5F5F5;}
+.mateBox{ width:1000px; margin:0 auto;}
+.mateBox .city{ float:left; width:300px; padding-left:5px;}
+.mateBox .city  a{color:#0084E9;font-weight:bold;font-size:16px;}
+.mateBox .city a:link,.mateBox .city a:visited{color:#0084E9;}
+.mateBox .web{ width:400px; float:right; text-align:right;}
+.mateBox .web a{ display:inline-block; color:#686868;}
+.mateBox .web a:hover{ text-decoration:none; color:#0185D9;}
+.mateBox .web a.wz{ background:url(../icon_x1.jpg) no-repeat left center; padding-left:15px;}
+.mateBox .web span{ margin:5px; color:#DCDCDC;}
+/*Wrapone*/
+#Wrapone{ width:100%; height:510px; background:url(jb_bg.jpg) repeat-x;}
+.banner1{ width:1061px; height:379px; margin:0 auto;}
+#Wrapone .vip{ width:998px; height:95px; border:1px solid #e4e4e4; background:#fff; margin:0 auto; position:relative; z-index:1;}
+#Wrapone .vip .pic{ width:115px; height:106px; float:left; position:relative; z-index:9999; margin:-11px 0 0 -11px;}
+#Wrapone .vip dl{width:881px; float:left; padding-top:10px;}
+#Wrapone .vip dt{ height:28px; color:#ff6a06; font:bold 14px/28px "宋体";}
+#Wrapone .vip dd{ text-indent:2em;}
+/*wrap*/
+.wrap{ width:972px; overflow:hidden; padding:12px 14px 17px; margin:0 auto; background:#def3ff;}
+.wrap .tit{ width:583px; height:51px; background:#0185da; margin-left:200px;}
+.wrap .tit span{ display:inline-block; width:27px; height:51px; float:left;}
+.wrap .tit strong{ width:529px;height:51px; font:bold 36px/51px "微软雅黑"; color:#fff; display:inline-block; float:left; text-align:center;}
+.wrap .box{ width:972px; height:172px; background:#fff; margin-top:15px;}
+.wrap .box .caption{ width:500px; height:42px; font:bold 14px/42px "宋体"; line-height:42px; color:#0185da; font-size:14px; padding-left:30px;}
+.wrap .box p{padding:0 15px; text-indent:2em;}
+/*content*/
+.content{ width:972px; overflow:hidden; padding:17px 14px; margin:0 auto; background:#ffeade;}
+.content .box{ width:972px; height:172px; background:#fff;}
+.content .box .caption{ width:500px; height:42px; font:bold 14px/42px "宋体"; line-height:42px; color:#F60; font-size:14px; padding-left:30px;}
+.content .box p{padding:0 15px; text-indent:2em;}
+/*content2*/
+.content2{ width:972px; overflow:hidden; padding:17px 14px; margin:0 auto; background:#def3ff;}
+.content2 .box{ width:972px; height:172px; background:#fff;}
+.content2 .box .caption{ width:500px; height:42px; font:bold 14px/42px "宋体"; line-height:42px; color:#0185da; font-size:14px; padding-left:30px;}
+.content2 .box p{padding:0 15px; text-indent:2em;}
+/*banner2*/
+#banner2{ width:1000px; height:270px; margin:20px auto;}
+.Titbox{ width:1000px; height:35px; margin:0 auto 20px;}
+.Titbox .titL{ width:173px; height:35px; background:url(tit_bg.jpg) no-repeat; padding-left:33px; font:bold 14px/35px "宋体"; color:#FFF; float:left;}
+.Titbox .titR{ width:793px; height:33px; border:1px solid #BFE4FF; border-left:none; background:#E6F5FF; float:left;}
+/*wraptwo*/
+.wraptwo{ width:1000px; height:179px; margin:0 auto;}
+.wraptwo .arrL{ width:28px; height:30px; float:left; margin-top:56px;}
+.wraptwo .center{ width:895px; float:left; padding-left:27px;}
+.wraptwo .boxL{ width:420px; float:left; margin-right:35px;}
+.wraptwo .photo{ width:151px; height:146px; float:left; padding-right:20px;}
+.wraptwo .word{ width:245px; float:left;}
+.wraptwo dt{ height:26px; line-height:26px; color:#F60; font-weight:bold;}
+.wraptwo dd{ text-indent:2em;}
+.wraptwo dd a:link,.wraptwo dd a:visited{ color:#f00;}
+.wraptwo .arrR{ width:28px; height:30px; float:right; margin-top:56px;}
+/*Docbox*/
+.Docbox{ width:998px; height:40px; line-height:40px;text-align:center; background:url(maile_bg.jpg) repeat-x; border:1px solid #98CEFF; margin:0 auto; color:#1D77CB; margin-bottom:15px;}
+.Docbox span{ margin-right:40px;}
+.Docbox a:link,.Docbox a:visited{ color:#1D77CB;}
+.Docbox span.one{ color:#1b1b1b;}
+/*Footer*/
+#Footer{ width:100%; border-top:1px solid #DDD;}
+#Footer .Cen{ width:1000px;  margin:0 auto; padding:10px 0; line-height:26px; color:#919191; text-align:center;}
+
+/*头部修改*/
+.headL .logo2{width:195px; height:37px; float:left; margin-top:15px;}

@@ -1,0 +1,500 @@
+﻿body,ul,p,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	}
+body{
+	font-size:12px;
+	font-family:'宋体';
+	color:#515151;
+	}
+a:link,a:visited{ text-decoration:none; color:#333;}
+a:hover{ text-decoration:underline; color:#00a1e9;}
+
+.content a{text-decoration:none;}
+.content a:hover,.content a:visited,.content a:link{
+    color: #cc0000;
+    cursor: pointer;
+}
+h2{
+	font-size:16px;
+	font-family:'微软雅黑';
+	line-height:27px;
+	color:#4b3810;
+	}
+
+.top
+{
+	height:370px;
+	background-color:#3599e5;
+	
+}
+.top_img
+{
+	height:100%;
+	width:994px;
+	margin-left:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-right:auto;
+	background-image:url(top-img.jpg);
+}
+.nav
+{
+	height:50px;
+	width:100%;
+	background-color:#4b3810
+}
+.nav ul
+{
+	margin-left:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-right:auto;
+	color:#FFF;
+	line-height:50px;
+	text-align:center;
+	width:960px;
+	}
+.nav ul li
+{   
+	display:inline-block;
+	float:left;
+	list-style-type:none;
+	width:160px;
+	}
+.nav li a:hover,.nav li a:visited,.nav li a:link{color:#fff;}
+.hui  a:visited,.hui  a:link{color:#515151;}
+.hui a:hover{color:#cc0000;}
+.jianju
+{
+	height:15px;
+	}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    background: url('Icon.png') no-repeat;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    *float: left;
+    *display:block;
+    *margin-top: 13px;
+}
+
+.step {
+    text-align: center;
+    line-height: 32px;
+    float: left;
+    width: 32px;
+    background: url('Icon.png') 0 0 no-repeat;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    margin-top: 24px;
+    margin-right: 10px;
+}
+
+.round {
+    width: 10px;
+    height: 10px;
+    -moz-background-position-x: -32px;
+    -o-background-position-x: -32px;
+    background-position-x: -32px;
+    -moz-background-position-y: 0;
+    -o-background-position-y: 0;
+    background-position-y: 0;
+}
+
+.triangle {
+    width: 10px;
+    height: 12px;
+    background-position-x: -42px;
+    background-position-y: 0;
+}
+
+body {
+    font-family: "宋体";
+    font-size: 12px;
+}
+ul li {
+    list-style: none;
+}
+.content
+{
+	
+	margin-left:auto;
+	margin-top:20px;
+	margin-bottom:auto;
+	margin-right:auto;
+	width:962px;
+	}
+.intro
+{
+	width:100%;
+	height:98px;
+	background-image:url(intro-bg.png);
+	color:#515151;
+	line-height:24px;
+	text-align:left;
+}
+.intro_img{
+	
+	height:27px;
+	width:59px;
+	margin-left:4px;
+	margin-top:35px;
+	float:left;
+	}
+.intro_text{
+	float:left;
+	margin-left:10px;
+	height:80px;
+	width:870px;
+	padding-left:10px;
+	border-left:1px #e3d5ae dashed;
+	text-align:left;
+	line-height:24px;
+	margin-top:5px;
+	padding-top:8px;
+	}
+
+.content_left{
+	width:703px;
+    float: left;
+    min-height: 100px;
+	}
+.process
+{
+	height:80px;
+	width:704px;
+	background-image:url(process_bg.png);	
+}
+
+/*布局css*/
+.content_right {
+    width: 242px;
+    min-height: 500px;
+    float: right;
+}
+
+.process ul {
+    width: 677px;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+    .process ul li {
+        float: left;
+        height: 80px;
+        line-height: 80px;
+        min-width: 100px;
+        padding-right: 13px;
+        list-style: none;
+    }
+/*志愿填报策略*/
+#strategy {
+    min-height: 100px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+#strategydiv {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+#strategyTtile {
+    height: 48px;
+    line-height: 48px;
+    padding-left: 14px;
+}
+
+#strategy table {
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+}
+
+.td_strategy_title {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.strategy_contnet {
+    margin-bottom: 5px;
+    line-height: 24px;
+    text-indent: 10px;
+}
+
+#questionimg {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+#question {
+    line-height: 45px;
+    text-align: center;
+    height: 45px;
+    width: 300px;
+    *position: relative;
+    *top: -2px;
+}
+/*志愿填报误区*/
+.instructions {
+    width: 100%;
+    min-height: 100px;
+}
+
+.instructions h2 {
+        margin-left: 18px;
+    }
+
+.line {
+    width: 100%;
+    height: 3px;
+}
+
+.left_line {
+    height: 3px;
+    width: 132px;
+    float: left;
+}
+
+.right_line {
+    float: right;
+    height: 1px;
+    width: 571px;
+}
+
+.instructionsList {
+    width: 100%;
+    min-height: 100px;
+    margin-top: 15px;
+    *margin-bottom: 15px;
+}
+
+
+    .instructionsList li {
+        float: left;
+        width: 346px;
+        min-height: 187px;
+        margin-bottom: 16px;
+    }
+
+.title {
+text-align:left;
+    padding-left: 18px;
+    height: 39px;
+    line-height: 39px;
+}
+
+    .title .icon {
+        position: relative;
+        top: 1px;
+    }
+
+.contentText {
+    height: 105px;
+    width: 311px;
+    padding: 15px 22px 15px 22px;
+    line-height: 25px;
+    -moz-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -moz-word-break: break-all;
+    -o-word-break: break-all;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.lookMore {
+    display: inline-block;
+    float: right;
+    
+    
+}
+.lookMore:hover{text-decoration: underline;}
+
+.lookMore2 {
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: normal;
+    margin-left: 60px;
+}
+
+#guanggao {
+    margin: 0 auto;
+    width: 960px;
+    height: 102px;
+    display: block;
+}
+
+.info {
+    height: 76px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+}
+
+.contentText table {
+    border-collapse: collapse;
+    height: auto;
+}
+
+    .contentText table td {
+        min-width: 83px;
+        vertical-align: top;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .contentText table .td_Title {
+        *width: 83px;
+    }
+
+.instructionsTwo {
+    height: 337px;
+    * height: auto;
+    *margin-bottom: 20px;
+}
+
+.conLeft {
+    width: 100%;
+}
+
+    .conLeft ul {
+        width: 100%;
+    }
+
+        .conLeft ul li {
+            width: 100%;
+            margin-bottom: 0;
+            border-bottom: none;
+            min-height: 140px;
+        }
+
+    .conLeft .contentText {
+        width: auto;
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+        .conLeft .contentText .lookMore {
+            float: left;
+            width: 100%;
+        }
+
+.instructionsTwo .contentText {
+    height: 300px;
+}
+/*页脚*/
+#footer {
+   
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+.footer1{
+	width:100%
+	}
+.nav ul li:hover {
+    background-color: #956f20;
+    cursor: pointer;
+}
+
+.step {
+    color: white;
+}
+
+.score {
+    color: #c9ab5b;
+}
+
+#strategy {
+    border: 1px solid #e7e7e7;
+}
+
+.left_line {
+    background-color: #3eacf9;
+}
+
+.right_line {
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.instructionsList li {
+    border: 1px solid #e7e7e7;
+}
+
+.title {
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #fffbf0;
+    font-weight: bold;
+    color: #4b3810;
+}
+
+.info {
+    background-color: #f5fbfe;
+    border: 1px solid #e5f1f7;
+	text-align:left;
+}
+
+#strategyTtile {
+    color: white;
+    background: url('strategyTitle.png') left no-repeat;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+#strategy table td {
+    border-bottom: 1px dotted #d7d7d7;
+}
+
+.td_strategy_title {
+    font-weight: bold;
+    color: #4b3810;
+}
+#questionimg {
+    border: 1px solid #d7d7d7;
+}
+#question {
+    border: 1px solid #d7d7d7;
+    background-color: #efefef;
+    border-top: none;
+    color: #4b3810;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+.contentText table td {
+            border-bottom: 1px dotted #d7d7d7;
+}
+
+.td_Title {
+    font-weight: bold;
+    color: #4b3810;
+}
+/*页脚*/
+#linkeditor {
+    background-color: #4b3810;
+    color: white;
+	line-height:38px;
+	width:962px;
+	margin:0px auto;
+	text-align:center;
+}
+
+/*mailbox*/
+.mailbox{ width:962px; height:40px; line-height:40px;text-align:center;  border:1px solid #4b3810; margin:15px auto; background-color: #4b3810;color:#FFF;}
+.mailbox span{ padding:0 30px;}
+.mailbox a:link,.Docbox a:visited{ color:#FFF;}
+.mailbox span.one{ color:#FFF;}

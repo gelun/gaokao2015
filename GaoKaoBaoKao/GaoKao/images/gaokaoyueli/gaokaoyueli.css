@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0;margin:0;color:#1B1B1B;font:12px/20px "SimSun" , "宋体" , "Arial Narrow" ,HELVETICA;}
+h1,h2,h3,h4,p,ul,li,input,img,select,dl,dt,dd{ padding:0; margin:0; border:0;list-style:none;}
+a:link,a:visited{ text-decoration:none; color:#1B1B1B;}
+a:hover{ text-decoration:underline; color:#007C52;}
+/*banner*/
+.banner{ width:100%; height:354px; margin:0 auto; text-align:center; background:#efede0;}
+/*content*/
+.content{ width:912px; margin:0 auto; overflow:hidden; padding:55px 0 0 88px;}
+.content .one{ width:1000px; height:156px; border-left:4px solid #f7a9b3; position:relative; z-index:1;}
+.content .one .lft{ width:93px; float:left; position:relative; z-index:999; margin-left:-14px;}
+.content .one .rit{ width:767px; float:left;}
+.content .one .rit .icon{ width:136px; height:123px; background:url(bg1.jpg) no-repeat; float:left; margin-right:29px;}
+.one .rit .icon dt{ width:136px; height:39px; font:bold 18px/39px "Arial"; color:#fff; text-align:center;}
+.one .rit .icon dd{ width:136px; height:75px; font:bold 36px/75px "微软雅黑"; color:#fff; text-align:center;}
+.one .rit .box{ width:600px; height:111px; border:1px solid #f4566c; background:#fffcdf; float:left; position:relative; z-index:1;} 
+.one .rit .box .topb{ height:76px;}
+.one .rit .box .tx{ height:76px; position:relative; z-index:999; margin:-5px 0 0 -5px; float:left;}
+.one .rit .box .number{ height:50px; padding:10px 0 0 10px; color:#645c47;}
+.one .rit .box .bot{ width:600px; height:34px; background:#f86e82; position:absolute; bottom:0;}
+.one .rit .box .botL{ width:144px; line-height:34px; text-align:center; color:#fff; font-weight:bold; float:left;}
+.one .rit .box .botR{ width:440px; height:34px; float:left;}
+.one .rit .box .botR li{ margin-right:20px; line-height:34px; float:left;}
+.one .rit .box .botR li a:link,.one .rit .box .botR li a:visited{ color:#fff;}
+.one .rit .box .botR li.unlink a:link,.one .rit .box .botR li.unlink a:visited{ color:#7e7e7e;}
+/*mailbox*/
+.mailbox{ width:964px; height:40px; line-height:40px;text-align:center; background:url(mail_bg.jpg) repeat-x; border:1px solid #c3c3c3; margin:20px auto; color:#1e1e1e;}
+.mailbox span{ margin-right:40px;}
+.mailbox a:link,.Docbox a:visited{ color:#1e1e1e;}
+.mailbox span.one{ color:#1b1b1b;}
+.unlink a:link,.unlink a:visited,.unlink a:hover{color:#000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

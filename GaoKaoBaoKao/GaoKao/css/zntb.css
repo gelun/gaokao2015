@@ -1,0 +1,145 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; color:#1b1b1b;}
+h1,h2,h3,h4,p,ul,li,dl,dt,dd,img,input,tr,th,td{ padding:0; margin:0; list-style:none; border:none;}
+a:link,a:visited{ text-decoration:none; color:#1A1A1A;}
+a:hover{ color:#1b9fe4; text-decoration:underline;}
+#MateTop{ width:100%; height:27px; line-height:27px; border-bottom:1px solid #DDD; background:#F5F5F5;}
+.mateBox{ width:1000px; margin:0 auto;}
+.mateBox .city{ float:left; width:300px; padding-left:5px;}
+.mateBox .city  a{color:#0084E9;font-weight:bold;font-size:16px;}
+.mateBox .city a:link,.mateBox .city a:visited{color:#0084E9;}
+.mateBox .web{ width:400px; float:right; text-align:right;}
+.mateBox .web a{ display:inline-block; color:#686868;}
+.mateBox .web a:hover{ text-decoration:none; color:#0185D9;}
+.mateBox .web a.wz{ background:url(../images/icon_x1.jpg) no-repeat left center; padding-left:15px;}
+.mateBox .web span{ margin:5px; color:#DCDCDC;}
+#Header .search .rit .btn{ width:43px; height:26px; background:url(../images/btn_ss.jpg) no-repeat;}
+/*Header*/
+#Header{ width:100%; height:70px; background:#fff;}
+.head{ width:1000px; margin:0 auto;}
+.head .logo{ width:168px; height:44px; margin:8px 0 0 19px; float:left;}
+.head .headR{ width:430px; float:right; margin-top:18px;}
+.headR .Lft{ width:168px; height:44px; float:left; padding-left:10px;}
+.headR .Rit{ width:210px; height:44px; line-height:44px; float:right; text-align:right;}
+.headR .Rit span{ margin:0 8px;}
+/*Wrapone*/
+#Wrapone{ width:100%; height:601px; background:url(../images/zhinengbaokao/bg_1.jpg) repeat-x;}
+#Wrapone .wrap{ width:1000px; margin:0 auto; padding-top:43px;}
+#Wrapone .wrap p{ width:847px; height:72px; margin:0 auto 20px;}
+#Wrapone .word{ width:645px; height:135px; font:18px/30px "微软雅黑"; color:#fff; margin:0 auto; text-align:center;}
+#Wrapone .pic{ width:681px; height:301px; margin:30px auto 0;}
+/*Wraptwo*/
+#Wraptwo{ width:100%; background:url(../images/zhinengbaokao/bg_3.jpg) repeat; padding-bottom:25px; border-bottom:1px solid #D1D1D3;}
+#Wraptwo .wrap{ width:1000px; margin:0 auto;}
+#Wraptwo .top{ width:884px; height:198px; padding-left:80px;}
+#Wraptwo .cont{ width:1000px; height:693px; background:url(../images/zhinengbaokao/pic_4.jpg) no-repeat center; position:relative;}
+#Wraptwo .bot{ width:1000px; height:212px;}
+#Wraptwo .bot .Lft{ width:491px; height:212px; float:left;}
+#Wraptwo .bot .tit{ width:491px; height:64px; background:url(../images/zhinengbaokao/tit_top.jpg) no-repeat;}
+#Wraptwo .bot .titL{ width:330px; float:left; font:bold 24px/50px "微软雅黑"; color:#fff; padding-left:25px;}
+#Wraptwo .bot .titR{ width:50px; float:right; height:50px; line-height:50px;} 
+#Wraptwo .bot .titR a:link,#Wraptwo .bot .titR a:visited{ color:#fff;}
+#Wraptwo .bot .box{ width:491px; height:135px; background:url(../images/zhinengbaokao/tit_cnt.jpg) repeat-y;}
+#Wraptwo .bot .foot{ width:491px; height:11px; background:url(../images/zhinengbaokao/tit_bot.jpg) no-repeat;}
+#Wraptwo .box .arrowL{ width:15px; height:26px; float:left; padding:58px 10px 0 11px;}
+#Wraptwo .box .content{ width:416px; float:left; padding:10px 0 0 16px;}
+.content .conL{ width:151px; height:117px; float:left; margin-right:16px;}
+.content .conR{ width:245px; float:left;}
+.content dt{ height:24px; font:bold 14px/22px "宋体"; color:#1b9fe4;}
+.content dd{ text-indent:2em;}
+.content dd a:link,.content dd a:visited{ color:#ED3B39;}
+#Wraptwo .box .arrowR{ width:15px; height:26px; float:left; padding:58px 0px 0px 10px;}
+#Wraptwo .mail{ width:1000px; height:39px; margin-top:20px;}
+.mail .lft{ width:13px; height:39px; float:left;}
+.mail .cnt{ width:974px; height:39px; line-height:39px; float:left; background:#1A9FE4; text-align:center;}
+.mail .cnt span{ padding:0 30px; font-size:14px; font-weight:bold; color:#fff;}
+.mail .cnt span a:link,.mail .cnt span a:visited{ color:#fff;}
+.mail .rit{ width:13px; height:39px; float:left;}
+#Wraptwo .bot .Rit{ width:500px; height:208px; float:right;}
+.cont .one{ width:177px; height:112px; position:absolute; top:109px; left:405px}
+.cont .two{ width:1000px; position:absolute; top:294px; left:100px;}
+.cont .two p{ float:left; margin-right:36px;}
+
+.cont .three{ width:1000px; position:absolute; top:466px; left:280px;}
+.cont .three p{ float:left; margin-right:56px;}
+
+/*Footer*/
+#Footer{ width:100%; border-top:1px solid #DDD;}
+#Footer .Cen{ width:1000px;  margin:0 auto; padding:10px 0; line-height:26px; color:#000; text-align:center;}
+/*头部修改*/
+.headL .logo2{width:195px; height:37px; float:left; margin-top:15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
